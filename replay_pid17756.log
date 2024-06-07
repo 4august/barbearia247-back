@@ -1,0 +1,944 @@
+version 2
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 163 ciObject found
+instanceKlass org/springframework/boot/logging/logback/ColorConverter
+ciInstanceKlass java/lang/Cloneable 1 0 7 100 1 100 1 1 1
+instanceKlass org/apache/catalina/Lifecycle$SingleUse
+instanceKlass  @bci org/springframework/boot/web/context/WebServerGracefulShutdownLifecycle stop (Ljava/lang/Runnable;)V 10 <appendix> member <vmtarget> ; # org/springframework/boot/web/context/WebServerGracefulShutdownLifecycle$$Lambda$1822+0x0000000801b15418
+instanceKlass org/springframework/boot/web/server/GracefulShutdownCallback
+instanceKlass  @bci org/springframework/context/support/DefaultLifecycleProcessor doStop (Ljava/util/Map;Ljava/lang/String;Ljava/util/concurrent/CountDownLatch;Ljava/util/Set;)V 167 <appendix> member <vmtarget> ; # org/springframework/context/support/DefaultLifecycleProcessor$$Lambda$1821+0x0000000801b13c30
+instanceKlass  @bci org/springframework/context/support/DefaultLifecycleProcessor stopBeans ()V 45 <appendix> argL0 ; # org/springframework/context/support/DefaultLifecycleProcessor$$Lambda$1820+0x0000000801b13a18
+instanceKlass  @bci org/springframework/context/support/DefaultLifecycleProcessor lambda$stopBeans$3 (Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Lorg/springframework/context/Lifecycle;)V 18 <appendix> member <vmtarget> ; # org/springframework/context/support/DefaultLifecycleProcessor$$Lambda$1819+0x0000000801b137e8
+instanceKlass  @bci org/springframework/context/support/DefaultLifecycleProcessor stopBeans ()V 20 <appendix> member <vmtarget> ; # org/springframework/context/support/DefaultLifecycleProcessor$$Lambda$1818+0x0000000801b135c8
+instanceKlass  @bci org/springframework/boot/devtools/restart/Restarter restart (Lorg/springframework/boot/devtools/restart/FailureHandler;)V 36 <appendix> member <vmtarget> ; # org/springframework/boot/devtools/restart/Restarter$$Lambda$1817+0x0000000801b133b8
+instanceKlass org/springframework/boot/devtools/autoconfigure/FileWatchingFailureHandler
+instanceKlass  @bci org/springframework/boot/devtools/filewatch/ChangedFile getRelativeName ()Ljava/lang/String; 42 <appendix> member <vmtarget> ; # org/springframework/boot/devtools/filewatch/ChangedFile$$Lambda$1816+0x0000000801b12f90
+instanceKlass org/springframework/boot/devtools/filewatch/ChangedFiles
+instanceKlass  @bci org/springframework/boot/devtools/filewatch/DirectorySnapshot getChangedFiles (Lorg/springframework/boot/devtools/filewatch/DirectorySnapshot;Ljava/io/FileFilter;)Lorg/springframework/boot/devtools/filewatch/ChangedFiles; 20 <appendix> member <vmtarget> ; # org/springframework/boot/devtools/filewatch/DirectorySnapshot$$Lambda$1815+0x0000000801b12740
+instanceKlass com/mysql/cj/protocol/a/BooleanValueEncoder$1
+instanceKlass com/mysql/cj/protocol/a/SqlTimestampValueEncoder$1
+instanceKlass com/mysql/cj/util/TimeUtil
+instanceKlass org/hibernate/query/internal/BindingTypeHelper$1
+instanceKlass org/hibernate/metamodel/model/domain/internal/CompositeSqmPathSource
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitEntityValuedPath (Lorg/hibernate/query/sqm/tree/domain/SqmEntityValuedSimplePath;)Lorg/hibernate/sql/ast/tree/expression/Expression; 5 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1814+0x0000000801b11700
+instanceKlass org/hibernate/type/BasicPluralType
+instanceKlass  @bci com/example/demo/controller/AtendimentoController salvar (Lcom/example/demo/DTO/AtendimentoDTO;)Lorg/springframework/http/ResponseEntity; 63 <appendix> argL0 ; # com/example/demo/controller/AtendimentoController$$Lambda$1813+0x0000000801b16208
+instanceKlass  @bci com/example/demo/controller/AtendimentoController salvar (Lcom/example/demo/DTO/AtendimentoDTO;)Lorg/springframework/http/ResponseEntity; 38 <appendix> argL0 ; # com/example/demo/controller/AtendimentoController$$Lambda$1812+0x0000000801b16000
+instanceKlass  @bci com/example/demo/controller/AtendimentoController salvar (Lcom/example/demo/DTO/AtendimentoDTO;)Lorg/springframework/http/ResponseEntity; 13 <appendix> argL0 ; # com/example/demo/controller/AtendimentoController$$Lambda$1811+0x0000000801a53cc0
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b14c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b14800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b14400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b14000
+instanceKlass  @bci java/util/regex/Pattern SingleI (II)Ljava/util/regex/Pattern$BmpCharPredicate; 2 <appendix> member <vmtarget> ; # java/util/regex/Pattern$$Lambda$1810+0x0000000801af14a8
+instanceKlass java/time/format/Parsed
+instanceKlass java/time/format/DateTimeParseContext
+instanceKlass java/text/ParsePosition
+instanceKlass  @bci java/time/LocalDateTime parse (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/LocalDateTime; 9 <appendix> argL0 ; # java/time/LocalDateTime$$Lambda$1809+0x0000000801af0c58
+instanceKlass com/fasterxml/jackson/databind/cfg/CoercionConfigs$1
+instanceKlass com/auth0/jwt/JWTCreator$Builder
+instanceKlass com/fasterxml/jackson/databind/cfg/MapperBuilder
+instanceKlass com/auth0/jwt/impl/ClaimsHolder
+instanceKlass com/auth0/jwt/JWTCreator
+instanceKlass org/springframework/security/crypto/bcrypt/BCrypt
+instanceKlass org/springframework/security/core/AuthenticatedPrincipal
+instanceKlass  @bci org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider authenticate (Lorg/springframework/security/core/Authentication;)Lorg/springframework/security/core/Authentication; 4 <appendix> member <vmtarget> ; # org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider$$Lambda$1808+0x0000000801aee5d0
+instanceKlass org/springframework/data/repository/core/support/QueryExecutionResultHandler$ReturnTypeDescriptor
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0ec00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0e800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0e400
+instanceKlass  @bci com/example/demo/controller/ContatoController editar (Ljava/lang/Long;Lcom/example/demo/DTO/ContatoDTO;)Lorg/springframework/http/ResponseEntity; 35 <appendix> argL0 ; # com/example/demo/controller/ContatoController$$Lambda$1807+0x0000000801a53ab8
+instanceKlass  @bci com/example/demo/controller/ContatoController editar (Ljava/lang/Long;Lcom/example/demo/DTO/ContatoDTO;)Lorg/springframework/http/ResponseEntity; 10 <appendix> argL0 ; # com/example/demo/controller/ContatoController$$Lambda$1806+0x0000000801a538b0
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0e000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0dc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0d800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0d400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0d000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0cc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0c800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801b0c400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0c000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0bc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0b800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801b0b400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801b0b000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0ac00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0a800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0a400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b0a000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b09c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b09800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b09400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b09000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b08c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b08800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b08400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b08000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b07c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b07800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b07400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b07000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b06c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b06800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b06400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b06000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b05c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b05800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b05400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b05000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b04c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b04800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b04400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b04000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b03c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b03800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b03400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b03000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b02c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b02800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b02400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b02000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b01c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b01800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b01400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b01000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b00c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b00800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b00400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801b00000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aebc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aeb800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aeb400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aeb000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aeac00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aea800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aea400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801aea000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801ae9c00
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801ae9800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ae9400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ae9000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ae8c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ae8800
+instanceKlass org/hibernate/engine/internal/Versioning
+instanceKlass  @bci org/hibernate/action/internal/EntityIdentityInsertAction postInsert ()V 42 <appendix> argL0 ; # org/hibernate/action/internal/EntityIdentityInsertAction$$Lambda$1805+0x0000000801aedc08
+instanceKlass  @bci org/hibernate/action/internal/EntityIdentityInsertAction postInsert ()V 37 <appendix> member <vmtarget> ; # org/hibernate/action/internal/EntityIdentityInsertAction$$Lambda$1804+0x0000000801aed9f8
+instanceKlass org/hibernate/sql/results/internal/RowTransformerArrayImpl
+instanceKlass org/hibernate/generator/values/internal/GeneratedValuesHelper$1
+instanceKlass org/hibernate/query/results/ResultSetMappingSqlSelection
+instanceKlass  @bci org/hibernate/query/results/ResultsHelper resolveSqlExpression (Lorg/hibernate/query/results/DomainResultCreationStateImpl;Lorg/hibernate/sql/ast/tree/from/TableReference;Lorg/hibernate/metamodel/mapping/SelectableMapping;I)Lorg/hibernate/sql/ast/tree/expression/Expression; 19 <appendix> member <vmtarget> ; # org/hibernate/query/results/ResultsHelper$$Lambda$1803+0x0000000801aecba0
+instanceKlass  @bci org/hibernate/generator/values/GeneratedValueBasicResultBuilder buildResult (Lorg/hibernate/sql/results/jdbc/spi/JdbcValuesMetadata;ILjava/util/function/BiFunction;Lorg/hibernate/sql/results/graph/DomainResultCreationState;)Lorg/hibernate/sql/results/graph/basic/BasicResult; 20 <appendix> member <vmtarget> ; # org/hibernate/generator/values/GeneratedValueBasicResultBuilder$$Lambda$1802+0x0000000801aec970
+instanceKlass  @bci org/hibernate/generator/values/internal/GeneratedValuesMappingProducer resolve (Lorg/hibernate/sql/results/jdbc/spi/JdbcValuesMetadata;Lorg/hibernate/engine/spi/LoadQueryInfluencers;Lorg/hibernate/engine/spi/SessionFactoryImplementor;)Lorg/hibernate/sql/results/jdbc/spi/JdbcValuesMapping; 113 <appendix> member <vmtarget> ; # org/hibernate/generator/values/internal/GeneratedValuesMappingProducer$$Lambda$1801+0x0000000801aec750
+instanceKlass org/hibernate/query/results/dynamic/DynamicFetchBuilderLegacy
+instanceKlass org/hibernate/query/results/dynamic/DynamicFetchBuilderContainer
+instanceKlass org/hibernate/query/NativeQuery$FetchReturn
+instanceKlass org/hibernate/query/results/dynamic/DynamicFetchBuilder
+instanceKlass org/hibernate/query/NativeQuery$ReturnProperty
+instanceKlass org/hibernate/query/NativeQuery$ResultNode
+instanceKlass org/hibernate/query/results/DomainResultCreationStateImpl$LegacyFetchResolverImpl
+instanceKlass org/hibernate/query/results/FromClauseAccessImpl
+instanceKlass  @bci org/hibernate/query/results/DomainResultCreationStateImpl <init> (Ljava/lang/String;Lorg/hibernate/sql/results/jdbc/spi/JdbcValuesMetadata;Ljava/util/Map;Ljava/util/function/Consumer;Lorg/hibernate/engine/spi/LoadQueryInfluencers;Lorg/hibernate/engine/spi/SessionFactoryImplementor;)V 27 <appendix> argL0 ; # org/hibernate/query/results/DomainResultCreationStateImpl$$Lambda$1800+0x0000000801ae7210
+instanceKlass  @bci org/hibernate/generator/values/internal/GeneratedValuesMappingProducer resolve (Lorg/hibernate/sql/results/jdbc/spi/JdbcValuesMetadata;Lorg/hibernate/engine/spi/LoadQueryInfluencers;Lorg/hibernate/engine/spi/SessionFactoryImplementor;)Lorg/hibernate/sql/results/jdbc/spi/JdbcValuesMapping; 55 <appendix> member <vmtarget> ; # org/hibernate/generator/values/internal/GeneratedValuesMappingProducer$$Lambda$1799+0x0000000801ae6ff0
+instanceKlass org/hibernate/query/results/FetchBuilder
+instanceKlass org/hibernate/query/results/dynamic/LegacyFetchResolver
+instanceKlass org/hibernate/query/results/DomainResultCreationStateImpl
+instanceKlass org/hibernate/generator/values/internal/GeneratedValuesImpl
+instanceKlass  @bci com/example/demo/controller/ContatoController salvar (Lcom/example/demo/DTO/ContatoDTO;)Lorg/springframework/http/ResponseEntity; 13 <appendix> argL0 ; # com/example/demo/controller/ContatoController$$Lambda$1798+0x0000000801a536a8
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ae8400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ae8000
+instanceKlass  @bci org/springframework/security/core/context/ThreadLocalSecurityContextHolderStrategy setContext (Lorg/springframework/security/core/context/SecurityContext;)V 10 <appendix> member <vmtarget> ; # org/springframework/security/core/context/ThreadLocalSecurityContextHolderStrategy$$Lambda$1797+0x0000000801ae6068
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/RequestMappingInfoHandlerMapping getMappingComparator (Ljakarta/servlet/http/HttpServletRequest;)Ljava/util/Comparator; 1 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/RequestMappingInfoHandlerMapping$$Lambda$1796+0x0000000801ae5de0
+instanceKlass org/springframework/web/servlet/handler/AbstractHandlerMethodMapping$MatchComparator
+instanceKlass org/apache/catalina/core/ApplicationHttpRequest$AttributeNamesEnumerator
+instanceKlass java/util/stream/ReduceOps$6ReducingSink
+instanceKlass  @bci java/util/stream/IntPipeline min ()Ljava/util/OptionalInt; 1 <appendix> argL0 ; # java/util/stream/IntPipeline$$Lambda$1795+0x0000000801af0000
+instanceKlass java/util/function/IntBinaryOperator
+instanceKlass  @bci org/apache/catalina/core/ApplicationHttpRequest <clinit> ()V 150 <appendix> argL0 ; # org/apache/catalina/core/ApplicationHttpRequest$$Lambda$1794+0x0000000801ae56f8
+instanceKlass org/apache/catalina/core/ApplicationDispatcher$State
+instanceKlass org/apache/catalina/core/ApplicationDispatcher
+instanceKlass org/apache/catalina/AsyncDispatcher
+instanceKlass org/apache/catalina/core/ApplicationContext$DispatchData
+instanceKlass ch/qos/logback/classic/spi/ClassPackagingData
+instanceKlass ch/qos/logback/classic/spi/STEUtil
+instanceKlass ch/qos/logback/classic/spi/PackagingDataCalculator
+instanceKlass ch/qos/logback/classic/spi/ThrowableProxyUtil
+instanceKlass ch/qos/logback/classic/spi/StackTraceElementProxy
+instanceKlass ch/qos/logback/classic/spi/ThrowableProxy
+instanceKlass  @bci org/springframework/security/web/util/ThrowableAnalyzer verifyThrowableHierarchy (Ljava/lang/Throwable;Ljava/lang/Class;)V 23 <appendix> member <vmtarget> ; # org/springframework/security/web/util/ThrowableAnalyzer$$Lambda$1793+0x0000000801ae31e0
+instanceKlass  @bci org/springframework/web/method/annotation/ExceptionHandlerMethodResolver <clinit> ()V 0 <appendix> argL0 ; # org/springframework/web/method/annotation/ExceptionHandlerMethodResolver$$Lambda$1792+0x0000000801ae2fc8
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver getExceptionHandlerMethod (Lorg/springframework/web/method/HandlerMethod;Ljava/lang/Exception;)Lorg/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod; 16 <appendix> argL0 ; # org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver$$Lambda$1791+0x0000000801ae2da0
+instanceKlass org/springframework/web/method/annotation/ExceptionHandlerMethodResolver
+instanceKlass org/springframework/dao/support/DataAccessUtils
+instanceKlass  @bci org/springframework/dao/support/PersistenceExceptionTranslationInterceptor detectPersistenceExceptionTranslators (Lorg/springframework/beans/factory/ListableBeanFactory;)Lorg/springframework/dao/support/PersistenceExceptionTranslator; 28 <appendix> member <vmtarget> ; # org/springframework/dao/support/PersistenceExceptionTranslationInterceptor$$Lambda$1790+0x0000000801ae1ee8
+instanceKlass org/springframework/dao/support/ChainedPersistenceExceptionTranslator
+instanceKlass  @bci org/springframework/transaction/support/AbstractPlatformTransactionManager processRollback (Lorg/springframework/transaction/support/DefaultTransactionStatus;Z)V 256 <appendix> member <vmtarget> ; # org/springframework/transaction/support/AbstractPlatformTransactionManager$$Lambda$1789+0x0000000801ae1ab0
+instanceKlass  @bci org/hibernate/internal/SessionImpl internalClear ()V 27 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1788+0x0000000801ae1898
+instanceKlass  @bci org/hibernate/internal/SessionImpl internalClear ()V 22 <appendix> member <vmtarget> ; # org/hibernate/internal/SessionImpl$$Lambda$1787+0x0000000801ae1688
+instanceKlass  @bci org/springframework/transaction/support/AbstractPlatformTransactionManager processRollback (Lorg/springframework/transaction/support/DefaultTransactionStatus;Z)V 92 <appendix> member <vmtarget> ; # org/springframework/transaction/support/AbstractPlatformTransactionManager$$Lambda$1786+0x0000000801ae1270
+instanceKlass org/hibernate/internal/ExceptionConverterImpl
+instanceKlass org/hibernate/internal/util/JdbcExceptionHelper
+instanceKlass com/mysql/cj/exceptions/DeadlockTimeoutRollbackMarker
+instanceKlass com/mysql/cj/jdbc/exceptions/SQLError
+instanceKlass com/mysql/cj/exceptions/StreamingNotifiable
+instanceKlass com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping
+instanceKlass com/mysql/cj/exceptions/ExceptionFactory
+instanceKlass com/mysql/cj/exceptions/MysqlErrorNumbers
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol getValueEncoderSupplier (Ljava/lang/Object;)Ljava/util/function/Supplier; 4 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda$1785+0x0000000801add350
+instanceKlass  @bci org/hibernate/persister/entity/mutation/InsertCoordinatorStandard doStaticInserts (Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/generator/values/GeneratedValues; 64 <appendix> argL0 ; # org/hibernate/persister/entity/mutation/InsertCoordinatorStandard$$Lambda$1784+0x0000000801adcc50
+instanceKlass  @cpi org/hibernate/persister/entity/mutation/InsertCoordinatorStandard 373 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801ad9800
+instanceKlass  @bci org/hibernate/persister/entity/mutation/InsertCoordinatorStandard decomposeAttribute (Ljava/lang/Object;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;Lorg/hibernate/engine/jdbc/mutation/JdbcValueBindings;Lorg/hibernate/metamodel/mapping/AttributeMapping;)V 15 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/InsertCoordinatorStandard$$Lambda$1783+0x0000000801adca40
+instanceKlass  @bci org/hibernate/persister/entity/mutation/InsertCoordinatorStandard getTableInclusionChecker (Lorg/hibernate/persister/entity/mutation/InsertCoordinatorStandard$InsertValuesAnalysis;)Lorg/hibernate/engine/jdbc/mutation/TableInclusionChecker; 1 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/InsertCoordinatorStandard$$Lambda$1782+0x0000000801adc830
+instanceKlass  @bci org/hibernate/persister/entity/mutation/InsertCoordinatorStandard$InsertValuesAnalysis <init> (Lorg/hibernate/persister/entity/mutation/EntityMutationTarget;[Ljava/lang/Object;)V 18 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/InsertCoordinatorStandard$InsertValuesAnalysis$$Lambda$1781+0x0000000801adc610
+instanceKlass org/hibernate/persister/entity/mutation/InsertCoordinatorStandard$InsertValuesAnalysis
+instanceKlass org/hibernate/engine/internal/NonNullableTransientDependencies
+instanceKlass org/hibernate/engine/internal/ForeignKeys$Nullifier
+instanceKlass  @bci org/hibernate/internal/SessionImpl firePersist (Lorg/hibernate/event/spi/PersistContext;Lorg/hibernate/event/spi/PersistEvent;)V 13 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1780+0x0000000801ad7bb8
+instanceKlass org/hibernate/id/CompositeNestedGeneratedValueGenerator
+instanceKlass org/hibernate/id/IdentifierGeneratorAggregator
+instanceKlass  @bci org/hibernate/event/internal/AbstractSaveEventListener performSave (Ljava/lang/Object;Ljava/lang/Object;Lorg/hibernate/persister/entity/EntityPersister;ZLjava/lang/Object;Lorg/hibernate/event/spi/EventSource;Z)Ljava/lang/Object; 20 <appendix> argL0 ; # org/hibernate/event/internal/AbstractSaveEventListener$$Lambda$1779+0x0000000801ad7468
+instanceKlass  @bci org/hibernate/event/internal/AbstractSaveEventListener performSave (Ljava/lang/Object;Ljava/lang/Object;Lorg/hibernate/persister/entity/EntityPersister;ZLjava/lang/Object;Lorg/hibernate/event/spi/EventSource;Z)Ljava/lang/Object; 11 <appendix> argL0 ; # org/hibernate/event/internal/AbstractSaveEventListener$$Lambda$1778+0x0000000801ad7260
+instanceKlass  @bci org/hibernate/internal/SessionImpl firePersist (Lorg/hibernate/event/spi/PersistEvent;)V 18 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1777+0x0000000801ad7048
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad9400
+instanceKlass  @bci com/example/demo/controller/EnderecoController salvar (Lcom/example/demo/DTO/EnderecoDTO;)Lorg/springframework/http/ResponseEntity; 13 <appendix> argL0 ; # com/example/demo/controller/EnderecoController$$Lambda$1776+0x0000000801a534a0
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801ad9000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad8c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad8800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad8400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad8000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad3c00
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801ad3800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad3400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad3000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad2c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad2800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801ad2400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ad2000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801ad1c00
+instanceKlass org/apache/catalina/Cluster
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl realClose (ZZZLjava/lang/Throwable;)V 241 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda$1775+0x0000000801ad6c48
+instanceKlass  @bci com/mysql/cj/protocol/ExportControlled <clinit> ()V 169 <appendix> argL0 ; # com/mysql/cj/protocol/ExportControlled$$Lambda$1774+0x0000000801ad6a30
+instanceKlass  @bci com/mysql/cj/protocol/ExportControlled <clinit> ()V 145 <appendix> argL0 ; # com/mysql/cj/protocol/ExportControlled$$Lambda$1773+0x0000000801ad6818
+instanceKlass  @bci com/mysql/cj/protocol/ExportControlled <clinit> ()V 121 <appendix> argL0 ; # com/mysql/cj/protocol/ExportControlled$$Lambda$1772+0x0000000801ad6600
+instanceKlass  @bci com/mysql/cj/protocol/ExportControlled <clinit> ()V 97 <appendix> argL0 ; # com/mysql/cj/protocol/ExportControlled$$Lambda$1771+0x0000000801ad63e8
+instanceKlass com/mysql/cj/protocol/ExportControlled
+instanceKlass  @bci com/zaxxer/hikari/pool/HikariPool closeConnection (Lcom/zaxxer/hikari/pool/PoolEntry;Ljava/lang/String;)V 23 <appendix> member <vmtarget> ; # com/zaxxer/hikari/pool/HikariPool$$Lambda$1770+0x0000000801ad5d60
+instanceKlass java/util/concurrent/atomic/Striped64$Cell
+instanceKlass java/util/concurrent/locks/ReentrantReadWriteLock$Sync$HoldCounter
+instanceKlass  @bci com/example/demo/controller/BarbeariaController encontrarPorID (Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity; 10 <appendix> argL0 ; # com/example/demo/controller/BarbeariaController$$Lambda$1769+0x0000000801a53298
+instanceKlass org/springframework/security/web/authentication/WebAuthenticationDetails
+instanceKlass  @bci org/hibernate/event/internal/AbstractFlushingEventListener postFlush (Lorg/hibernate/engine/spi/SessionImplementor;)V 35 <appendix> member <vmtarget> ; # org/hibernate/event/internal/AbstractFlushingEventListener$$Lambda$1768+0x0000000801ad5758
+instanceKlass  @bci org/hibernate/action/internal/EntityUpdateAction postUpdate ()V 13 <appendix> argL0 ; # org/hibernate/action/internal/EntityUpdateAction$$Lambda$1767+0x0000000801ad5540
+instanceKlass  @bci org/hibernate/action/internal/EntityUpdateAction postUpdate ()V 8 <appendix> member <vmtarget> ; # org/hibernate/action/internal/EntityUpdateAction$$Lambda$1766+0x0000000801ad5330
+instanceKlass  @bci org/hibernate/engine/internal/AbstractEntityEntry postUpdate (Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;)V 59 <appendix> argL0 ; # org/hibernate/engine/internal/AbstractEntityEntry$$Lambda$1765+0x0000000801ad4f00
+instanceKlass  @bci org/hibernate/engine/internal/AbstractEntityEntry postUpdate (Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;)V 50 <appendix> argL0 ; # org/hibernate/engine/internal/AbstractEntityEntry$$Lambda$1764+0x0000000801ad4cf8
+instanceKlass org/hibernate/engine/jdbc/internal/ResultSetReturnImpl
+instanceKlass org/hibernate/engine/jdbc/internal/MutationStatementPreparerImpl$StatementPreparationTemplate
+instanceKlass org/hibernate/engine/jdbc/internal/MutationStatementPreparerImpl
+instanceKlass  @bci org/hibernate/engine/jdbc/mutation/internal/JdbcValueBindingsImpl beforeStatement (Lorg/hibernate/engine/jdbc/mutation/group/PreparedStatementDetails;)V 41 <appendix> member <vmtarget> ; # org/hibernate/engine/jdbc/mutation/internal/JdbcValueBindingsImpl$$Lambda$1763+0x0000000801ad4210
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard doStaticUpdate (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;[Ljava/lang/Object;Lorg/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$UpdateValuesAnalysisImpl;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/generator/values/GeneratedValues; 73 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$$Lambda$1762+0x0000000801ad4000
+instanceKlass  @cpi org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard 819 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801ad1800
+instanceKlass org/hibernate/engine/jdbc/mutation/OperationResultChecker
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard doStaticUpdate (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;[Ljava/lang/Object;Lorg/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$UpdateValuesAnalysisImpl;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/generator/values/GeneratedValues; 66 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$$Lambda$1761+0x0000000801acfbc8
+instanceKlass org/hibernate/engine/jdbc/mutation/TableInclusionChecker
+instanceKlass  @bci org/hibernate/persister/entity/mutation/EntityTableMapping$KeyMapping breakDownKeyJdbcValues (Ljava/lang/Object;Lorg/hibernate/persister/entity/mutation/EntityTableMapping$KeyValueConsumer;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)V 10 <appendix> argL0 ; # org/hibernate/persister/entity/mutation/EntityTableMapping$KeyMapping$$Lambda$1760+0x0000000801acf7d8
+instanceKlass  @bci org/hibernate/persister/entity/mutation/AbstractMutationCoordinator breakDownKeyJdbcValues (Ljava/lang/Object;Ljava/lang/Object;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;Lorg/hibernate/engine/jdbc/mutation/JdbcValueBindings;Lorg/hibernate/persister/entity/mutation/EntityTableMapping;)V 57 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/AbstractMutationCoordinator$$Lambda$1759+0x0000000801acf5c8
+instanceKlass org/hibernate/persister/entity/mutation/EntityTableMapping$KeyValueConsumer
+instanceKlass  @bci org/hibernate/engine/jdbc/mutation/spi/BindingGroup <init> (Ljava/lang/String;)V 14 <appendix> argL0 ; # org/hibernate/engine/jdbc/mutation/spi/BindingGroup$$Lambda$1758+0x0000000801acf1b8
+instanceKlass org/hibernate/engine/jdbc/mutation/spi/Binding
+instanceKlass org/hibernate/engine/jdbc/mutation/spi/BindingGroup
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard decomposeAttributeMapping (Lorg/hibernate/engine/spi/SharedSessionContractImplementor;Lorg/hibernate/engine/jdbc/mutation/JdbcValueBindings;Lorg/hibernate/persister/entity/mutation/EntityTableMapping;Lorg/hibernate/metamodel/mapping/AttributeMapping;Ljava/lang/Object;)V 6 <appendix> argL0 ; # org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$$Lambda$1757+0x0000000801aceb70
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard doStaticUpdate (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;[Ljava/lang/Object;Lorg/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$UpdateValuesAnalysisImpl;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/generator/values/GeneratedValues; 26 <appendix> argL0 ; # org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$$Lambda$1756+0x0000000801ace968
+instanceKlass  @bci org/hibernate/engine/jdbc/mutation/internal/ModelMutationHelper standardPreparation (Lorg/hibernate/sql/model/PreparableMutationOperation;Lorg/hibernate/generator/values/GeneratedValuesMutationDelegate;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/engine/jdbc/mutation/group/PreparedStatementDetails; 8 <appendix> member <vmtarget> ; # org/hibernate/engine/jdbc/mutation/internal/ModelMutationHelper$$Lambda$1755+0x0000000801ace758
+instanceKlass org/hibernate/engine/jdbc/mutation/internal/PreparedStatementDetailsStandard
+instanceKlass org/hibernate/engine/jdbc/mutation/group/PreparedStatementDetails
+instanceKlass org/hibernate/engine/jdbc/mutation/internal/ModelMutationHelper
+instanceKlass org/hibernate/engine/jdbc/mutation/internal/PreparedStatementGroupSingleTable
+instanceKlass org/hibernate/engine/jdbc/mutation/internal/JdbcValueBindingsImpl
+instanceKlass org/hibernate/persister/entity/mutation/EntityMutationTarget$1
+instanceKlass org/hibernate/engine/jdbc/mutation/internal/AbstractMutationExecutor
+instanceKlass org/hibernate/engine/jdbc/mutation/internal/JdbcValueBindingsImpl$JdbcValueDescriptorAccess
+instanceKlass  @bci org/hibernate/persister/entity/mutation/AbstractMutationCoordinator resolveBatchKeyAccess (ZLorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/engine/jdbc/mutation/spi/BatchKeyAccess; 41 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/AbstractMutationCoordinator$$Lambda$1754+0x0000000801acce88
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard performUpdate (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;ZLorg/hibernate/engine/spi/SharedSessionContractImplementor;Lorg/hibernate/metamodel/mapping/EntityVersionMapping;[I[ZZ)Lorg/hibernate/generator/values/GeneratedValues; 30 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$$Lambda$1753+0x0000000801accc78
+instanceKlass  @cpi org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard 689 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801ad1400
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard performUpdate (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;ZLorg/hibernate/engine/spi/SharedSessionContractImplementor;Lorg/hibernate/metamodel/mapping/EntityVersionMapping;[I[ZZ)Lorg/hibernate/generator/values/GeneratedValues; 21 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$$Lambda$1752+0x0000000801acca68
+instanceKlass  @cpi org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard 687 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801ad1000
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard performUpdate (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;ZLorg/hibernate/engine/spi/SharedSessionContractImplementor;Lorg/hibernate/metamodel/mapping/EntityVersionMapping;[I[ZZ)Lorg/hibernate/generator/values/GeneratedValues; 9 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x0000000801ad0c00
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801ad0800
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard performUpdate (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;ZLorg/hibernate/engine/spi/SharedSessionContractImplementor;Lorg/hibernate/metamodel/mapping/EntityVersionMapping;[I[ZZ)Lorg/hibernate/generator/values/GeneratedValues; 9 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801ad0400
+instanceKlass  @bci org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard performUpdate (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;ZLorg/hibernate/engine/spi/SharedSessionContractImplementor;Lorg/hibernate/metamodel/mapping/EntityVersionMapping;[I[ZZ)Lorg/hibernate/generator/values/GeneratedValues; 9 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard$$Lambda$1751+0x0000000801acc858
+instanceKlass  @cpi org/hibernate/persister/entity/mutation/UpdateCoordinatorStandard 685 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801ad0000
+instanceKlass org/hibernate/validator/internal/engine/ValidatorFactoryScopedContext$Builder
+instanceKlass org/hibernate/validator/internal/engine/ValidatorContextImpl
+instanceKlass org/hibernate/boot/beanvalidation/HibernateTraversableResolver
+instanceKlass org/hibernate/engine/spi/Resolution
+instanceKlass org/hibernate/engine/internal/NaturalIdResolutionsImpl
+instanceKlass  @bci org/hibernate/event/internal/AbstractFlushingEventListener flushCollections (Lorg/hibernate/event/spi/EventSource;Lorg/hibernate/engine/spi/PersistenceContext;)I 62 <appendix> member <vmtarget> ; # org/hibernate/event/internal/AbstractFlushingEventListener$$Lambda$1750+0x0000000801acb4e8
+instanceKlass  @bci org/hibernate/event/internal/AbstractFlushingEventListener flushCollections (Lorg/hibernate/event/spi/EventSource;Lorg/hibernate/engine/spi/PersistenceContext;)I 19 <appendix> member <vmtarget> ; # org/hibernate/event/internal/AbstractFlushingEventListener$$Lambda$1749+0x0000000801acb2c8
+instanceKlass org/hibernate/engine/spi/ExecutableList
+instanceKlass org/hibernate/engine/internal/Nullability
+instanceKlass org/hibernate/engine/internal/Collections
+instanceKlass  @bci org/hibernate/event/internal/DefaultFlushEntityEventListener isUpdateNecessary (Lorg/hibernate/event/spi/FlushEntityEvent;Z)Z 54 <appendix> argL0 ; # org/hibernate/event/internal/DefaultFlushEntityEventListener$$Lambda$1748+0x0000000801aca010
+instanceKlass  @bci org/hibernate/event/internal/DefaultFlushEntityEventListener isUpdateNecessary (Lorg/hibernate/event/spi/FlushEntityEvent;Z)Z 44 <appendix> argL0 ; # org/hibernate/event/internal/DefaultFlushEntityEventListener$$Lambda$1747+0x0000000801ac9e08
+instanceKlass org/hibernate/persister/entity/DirtyHelper
+instanceKlass org/hibernate/event/internal/DefaultFlushEntityEventListener$1DirtyCheckContextImpl
+instanceKlass org/hibernate/event/internal/AbstractVisitor
+instanceKlass org/hibernate/action/internal/DelayedPostInsertIdentifier
+instanceKlass  @bci org/hibernate/event/internal/AbstractFlushingEventListener flushEntities (Lorg/hibernate/event/spi/FlushEvent;Lorg/hibernate/engine/spi/PersistenceContext;)I 145 <appendix> argL0 ; # org/hibernate/event/internal/AbstractFlushingEventListener$$Lambda$1746+0x0000000801ac8ee0
+instanceKlass org/hibernate/internal/util/collections/IdentityMap$IdentityMapEntry
+instanceKlass  @bci org/hibernate/event/internal/AbstractFlushingEventListener prepareCollectionFlushes (Lorg/hibernate/engine/spi/PersistenceContext;)V 11 <appendix> argL0 ; # org/hibernate/event/internal/AbstractFlushingEventListener$$Lambda$1745+0x0000000801ac87f0
+instanceKlass org/hibernate/internal/util/collections/IdentitySet
+instanceKlass org/hibernate/event/internal/DefaultPersistEventListener$1
+instanceKlass  @bci org/hibernate/internal/SessionImpl persistOnFlush (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/event/spi/PersistContext;)V 30 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1744+0x0000000801ac8000
+instanceKlass org/hibernate/engine/internal/EntityEntryContext$EntityEntryCrossRefImpl
+instanceKlass org/hibernate/engine/internal/EntityEntryContext$EntityEntryCrossRef
+instanceKlass org/hibernate/event/spi/PersistContext
+instanceKlass org/hibernate/engine/internal/StatefulPersistenceContext$1
+instanceKlass  @bci org/hibernate/internal/SessionImpl doFlush ()V 46 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1743+0x0000000801ac51f0
+instanceKlass org/hibernate/engine/internal/ForeignKeys
+instanceKlass org/hibernate/type/TypeHelper
+instanceKlass  @bci org/hibernate/internal/SessionImpl fireMerge (Lorg/hibernate/event/spi/MergeContext;Lorg/hibernate/event/spi/MergeEvent;)V 13 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1742+0x0000000801ac7be8
+instanceKlass org/hibernate/engine/internal/Cascade
+instanceKlass org/hibernate/event/internal/DefaultMergeEventListener$1
+instanceKlass org/hibernate/event/spi/MergeContext
+instanceKlass  @bci org/hibernate/internal/SessionImpl fireMerge (Lorg/hibernate/event/spi/MergeEvent;)Ljava/lang/Object; 16 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1741+0x0000000801ac6848
+instanceKlass org/hibernate/FlushMode$1
+instanceKlass  @bci com/example/demo/controller/EnderecoController editar (JLcom/example/demo/DTO/EnderecoDTO;)Lorg/springframework/http/ResponseEntity; 39 <appendix> argL0 ; # com/example/demo/controller/EnderecoController$$Lambda$1740+0x0000000801a53090
+instanceKlass org/hibernate/loader/ast/internal/LoaderHelper
+instanceKlass  @bci com/example/demo/controller/EnderecoController editar (JLcom/example/demo/DTO/EnderecoDTO;)Lorg/springframework/http/ResponseEntity; 13 <appendix> argL0 ; # com/example/demo/controller/EnderecoController$$Lambda$1739+0x000000080189fbf8
+instanceKlass  @bci org/springframework/transaction/support/AbstractPlatformTransactionManager processCommit (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V 285 <appendix> member <vmtarget> ; # org/springframework/transaction/support/AbstractPlatformTransactionManager$$Lambda$1738+0x0000000801ac6000
+instanceKlass  @bci org/hibernate/engine/internal/EntityEntryContext downgradeLocks ()V 1 <appendix> argL0 ; # org/hibernate/engine/internal/EntityEntryContext$$Lambda$1737+0x0000000801ac3dc0
+instanceKlass  @bci org/springframework/transaction/support/AbstractPlatformTransactionManager processCommit (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V 117 <appendix> member <vmtarget> ; # org/springframework/transaction/support/AbstractPlatformTransactionManager$$Lambda$1736+0x0000000801ac3ba0
+instanceKlass org/hibernate/loader/ast/internal/CacheEntityLoaderHelper$PersistenceContextEntry
+instanceKlass org/hibernate/loader/ast/internal/CacheEntityLoaderHelper
+instanceKlass  @bci org/hibernate/internal/SessionImpl fireLoadNoChecks (Lorg/hibernate/event/spi/LoadEvent;Lorg/hibernate/event/spi/LoadEventListener$LoadType;)V 13 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1735+0x0000000801ac2ac8
+instanceKlass org/hibernate/event/service/spi/EventActionWithParameter
+instanceKlass org/hibernate/event/spi/LoadEventListener$LoadType
+instanceKlass org/hibernate/LockMode$1
+instanceKlass  @bci org/hibernate/loader/internal/IdentifierLoadAccessImpl load (Ljava/lang/Object;)Ljava/lang/Object; 3 <appendix> member <vmtarget> ; # org/hibernate/loader/internal/IdentifierLoadAccessImpl$$Lambda$1734+0x0000000801ac2060
+instanceKlass org/hibernate/loader/internal/IdentifierLoadAccessImpl
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801ac4400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801ac4000
+instanceKlass  @bci org/springframework/data/jpa/repository/support/SimpleJpaRepository getHints ()Ljava/util/Map; 55 <appendix> member <vmtarget> ; # org/springframework/data/jpa/repository/support/SimpleJpaRepository$$Lambda$1733+0x0000000801ac1978
+instanceKlass  @bci org/springframework/data/jpa/repository/support/QueryHints from ([Lorg/springframework/data/jpa/repository/support/QueryHints;)Lorg/springframework/data/jpa/repository/support/QueryHints; 41 <appendix> member <vmtarget> ; # org/springframework/data/jpa/repository/support/QueryHints$$Lambda$1732+0x0000000801ac1758
+instanceKlass  @bci org/springframework/data/util/Optionals lambda$mapIfAllPresent$6 (Ljava/util/Optional;Ljava/util/function/BiFunction;Ljava/lang/Object;)Ljava/util/Optional; 3 <appendix> member <vmtarget> ; # org/springframework/data/util/Optionals$$Lambda$1731+0x0000000801ac1528
+instanceKlass  @bci org/springframework/data/util/Optionals mapIfAllPresent (Ljava/util/Optional;Ljava/util/Optional;Ljava/util/function/BiFunction;)Ljava/util/Optional; 21 <appendix> member <vmtarget> ; # org/springframework/data/util/Optionals$$Lambda$1730+0x0000000801ac12f8
+instanceKlass  @bci org/springframework/data/jpa/repository/support/DefaultQueryHints getFetchGraphs ()Lorg/springframework/data/jpa/repository/support/QueryHints; 14 <appendix> member <vmtarget> ; # org/springframework/data/jpa/repository/support/DefaultQueryHints$$Lambda$1729+0x0000000801ac10d8
+instanceKlass  @bci org/springframework/data/jpa/repository/support/SimpleJpaRepository getHints ()Ljava/util/Map; 27 <appendix> member <vmtarget> ; # org/springframework/data/jpa/repository/support/SimpleJpaRepository$$Lambda$1728+0x0000000801ac0cd8
+instanceKlass org/springframework/data/jpa/repository/support/DefaultQueryHints
+instanceKlass  @bci org/springframework/data/repository/core/support/RepositoryMethodInvoker$RepositoryFragmentMethodInvoker <init> (Lorg/springframework/data/repository/core/support/RepositoryMethodInvoker$RepositoryFragmentMethodInvoker$CoroutineAdapterInformation;Ljava/lang/reflect/Method;Ljava/lang/Object;Ljava/lang/reflect/Method;)V 6 <appendix> member <vmtarget> ; # org/springframework/data/repository/core/support/RepositoryMethodInvoker$RepositoryFragmentMethodInvoker$$Lambda$1727+0x0000000801ac0890
+instanceKlass org/springframework/data/repository/core/support/RepositoryMethodInvoker$RepositoryFragmentMethodInvoker$CoroutineAdapterInformation
+instanceKlass  @bci org/springframework/data/repository/core/support/RepositoryComposition$RepositoryFragments findImplementationFragment (Ljava/lang/reflect/Method;)Lorg/springframework/data/repository/core/support/RepositoryFragment; 31 <appendix> member <vmtarget> ; # org/springframework/data/repository/core/support/RepositoryComposition$RepositoryFragments$$Lambda$1726+0x0000000801ac0478
+instanceKlass  @bci org/springframework/data/repository/core/support/RepositoryComposition$RepositoryFragments findImplementationFragment (Ljava/lang/reflect/Method;)Lorg/springframework/data/repository/core/support/RepositoryFragment; 15 <appendix> argL0 ; # org/springframework/data/repository/core/support/RepositoryComposition$RepositoryFragments$$Lambda$1725+0x0000000801ac0240
+instanceKlass  @bci org/springframework/data/repository/core/support/RepositoryComposition$RepositoryFragments findImplementationFragment (Ljava/lang/reflect/Method;)Lorg/springframework/data/repository/core/support/RepositoryFragment; 5 <appendix> member <vmtarget> ; # org/springframework/data/repository/core/support/RepositoryComposition$RepositoryFragments$$Lambda$1724+0x0000000801ac0000
+instanceKlass  @bci org/springframework/data/repository/core/support/RepositoryComposition$RepositoryFragments invoke (Ljava/lang/Class;Lorg/springframework/data/repository/core/support/RepositoryInvocationMulticaster;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; 7 <appendix> member <vmtarget> ; # org/springframework/data/repository/core/support/RepositoryComposition$RepositoryFragments$$Lambda$1723+0x0000000801abec00
+instanceKlass  @bci org/springframework/data/repository/core/support/RepositoryFragment$ImplementedRepositoryFragment getSignatureContributor ()Ljava/lang/Class; 5 <appendix> member <vmtarget> ; # org/springframework/data/repository/core/support/RepositoryFragment$ImplementedRepositoryFragment$$Lambda$1722+0x0000000801abfcb8
+instanceKlass  @bci org/springframework/transaction/support/AbstractPlatformTransactionManager startTransaction (Lorg/springframework/transaction/TransactionDefinition;Ljava/lang/Object;ZZLorg/springframework/transaction/support/AbstractPlatformTransactionManager$SuspendedResourcesHolder;)Lorg/springframework/transaction/TransactionStatus; 92 <appendix> member <vmtarget> ; # org/springframework/transaction/support/AbstractPlatformTransactionManager$$Lambda$1721+0x0000000801abfa98
+instanceKlass org/springframework/orm/jpa/vendor/HibernateJpaDialect$HibernateConnectionHandle
+instanceKlass org/springframework/orm/jpa/vendor/HibernateJpaDialect$SessionTransactionData
+instanceKlass org/hibernate/engine/transaction/internal/TransactionImpl
+instanceKlass org/springframework/jdbc/datasource/DataSourceUtils
+instanceKlass org/springframework/transaction/support/ResourceTransactionDefinition
+instanceKlass  @bci org/springframework/transaction/support/AbstractPlatformTransactionManager startTransaction (Lorg/springframework/transaction/TransactionDefinition;Ljava/lang/Object;ZZLorg/springframework/transaction/support/AbstractPlatformTransactionManager$SuspendedResourcesHolder;)Lorg/springframework/transaction/TransactionStatus; 37 <appendix> member <vmtarget> ; # org/springframework/transaction/support/AbstractPlatformTransactionManager$$Lambda$1720+0x0000000801abb470
+instanceKlass org/springframework/transaction/support/DelegatingTransactionDefinition
+instanceKlass org/springframework/transaction/support/CallbackPreferringPlatformTransactionManager
+instanceKlass  @bci org/springframework/beans/factory/annotation/BeanFactoryAnnotationUtils qualifiedBeanOfType (Lorg/springframework/beans/factory/ListableBeanFactory;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object; 40 <appendix> member <vmtarget> ; # org/springframework/beans/factory/annotation/BeanFactoryAnnotationUtils$$Lambda$1719+0x0000000801aba8c0
+instanceKlass  @bci org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata <init> (Ljava/lang/reflect/Method;)V 33 <appendix> argL0 ; # org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata$$Lambda$1718+0x0000000801aba3d0
+instanceKlass jakarta/persistence/QueryHint
+instanceKlass org/springframework/data/jpa/repository/support/MutableQueryHints
+instanceKlass  @bci org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata <init> (Ljava/lang/reflect/Method;)V 20 <appendix> argL0 ; # org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata$$Lambda$1717+0x0000000801ab9d68
+instanceKlass org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801abe800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801abe400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801abe000
+# instanceKlass java/lang/invoke/LambdaForm$BMH+0x0000000801abdc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801abd800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801abd400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801abd000
+instanceKlass org/springframework/beans/PropertyAccessorFactory
+instanceKlass org/springframework/validation/annotation/ValidationAnnotationUtils
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver readWithMessageConverters (Lorg/springframework/http/HttpInputMessage;Lorg/springframework/core/MethodParameter;Ljava/lang/reflect/Type;)Ljava/lang/Object; 542 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver$$Lambda$1716+0x0000000801ab9310
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801abcc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801abc800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801abc400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000801abc000
+instanceKlass com/fasterxml/jackson/databind/util/TokenBuffer$1
+instanceKlass com/fasterxml/jackson/databind/util/TokenBuffer$Segment
+instanceKlass com/fasterxml/jackson/databind/deser/impl/PropertyValue
+instanceKlass com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer
+instanceKlass com/fasterxml/jackson/core/json/ByteSourceJsonBootstrapper
+instanceKlass org/springframework/http/converter/json/MappingJacksonInputMessage
+instanceKlass  @bci org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter readJavaType (Lcom/fasterxml/jackson/databind/JavaType;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object; 39 <appendix> member <vmtarget> ; # org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter$$Lambda$1715+0x0000000801ab66a8
+instanceKlass com/fasterxml/jackson/databind/deser/impl/PropertyBasedCreator
+instanceKlass com/fasterxml/jackson/databind/deser/std/NumberDeserializers
+instanceKlass com/fasterxml/jackson/databind/deser/impl/ReadableObjectId$Referring
+instanceKlass com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap
+instanceKlass com/fasterxml/jackson/annotation/JsonAlias
+instanceKlass com/fasterxml/jackson/databind/util/ViewMatcher
+instanceKlass com/fasterxml/jackson/databind/deser/BeanDeserializerBuilder
+instanceKlass com/fasterxml/jackson/databind/deser/impl/CreatorCandidate$Param
+instanceKlass com/fasterxml/jackson/databind/deser/impl/CreatorCandidate
+instanceKlass com/fasterxml/jackson/databind/deser/BasicDeserializerFactory$CreatorCollectionState
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$MemberIterator
+instanceKlass com/fasterxml/jackson/databind/jdk14/JDK14Util$RawTypeName
+instanceKlass com/fasterxml/jackson/databind/jdk14/JDK14Util$CreatorLocator
+instanceKlass com/fasterxml/jackson/databind/deser/impl/CreatorCollector
+instanceKlass com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator
+instanceKlass com/fasterxml/jackson/databind/deser/std/JdkDeserializers
+# instanceKlass com/fasterxml/jackson/databind/jdk14/JDK14Util$RecordAccessor$$InjectedInvoker+0x0000000801aa8800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aa8400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000801aa8000
+instanceKlass com/fasterxml/jackson/databind/jdk14/JDK14Util$RecordAccessor
+instanceKlass com/fasterxml/jackson/databind/jdk14/JDK14Util
+instanceKlass jakarta/xml/bind/annotation/XmlType
+instanceKlass org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage
+instanceKlass org/springframework/web/bind/annotation/MatrixVariable
+instanceKlass org/springframework/web/bind/support/BindParamNameResolver
+instanceKlass org/springframework/validation/DefaultBindingErrorProcessor
+instanceKlass org/springframework/web/bind/ServletRequestDataBinder$ServletRequestValueResolver
+instanceKlass org/springframework/validation/DataBinder$ValueResolver
+instanceKlass org/springframework/validation/AbstractErrors
+instanceKlass org/springframework/validation/BindingErrorProcessor
+instanceKlass jakarta/servlet/http/Part
+instanceKlass org/springframework/web/multipart/MultipartFile
+instanceKlass org/springframework/web/multipart/support/MultipartResolutionDelegate
+instanceKlass org/springframework/web/bind/annotation/RequestPart
+instanceKlass org/springframework/web/bind/annotation/ModelAttribute
+instanceKlass org/springframework/web/HttpRequestHandler
+instanceKlass  @bci org/springframework/web/method/annotation/SessionAttributesHandler storeAttributes (Lorg/springframework/web/context/request/WebRequest;Ljava/util/Map;)V 3 <appendix> member <vmtarget> ; # org/springframework/web/method/annotation/SessionAttributesHandler$$Lambda$1714+0x0000000801aa3988
+instanceKlass org/apache/tomcat/util/buf/HexUtils
+instanceKlass org/apache/coyote/http11/Constants
+instanceKlass org/hibernate/collection/spi/AbstractPersistentCollection$IteratorProxy
+instanceKlass com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap$SerializerAndMapResult
+instanceKlass com/fasterxml/jackson/databind/introspect/AnnotationCollector$OneAnnotation
+instanceKlass org/hibernate/Incubating
+instanceKlass com/fasterxml/jackson/core/io/NumberOutput
+instanceKlass com/fasterxml/jackson/databind/ObjectWriter$Prefetch
+instanceKlass com/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings
+instanceKlass com/fasterxml/jackson/core/util/MinimalPrettyPrinter
+instanceKlass org/springframework/util/TypeUtils
+instanceKlass com/fasterxml/jackson/core/FormatFeature
+instanceKlass org/springframework/util/StreamUtils
+instanceKlass org/apache/tomcat/util/http/parser/MediaType
+instanceKlass  @bci org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter writeInternal (Ljava/lang/Object;Ljava/lang/reflect/Type;Lorg/springframework/http/HttpOutputMessage;)V 71 <appendix> member <vmtarget> ; # org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter$$Lambda$1713+0x0000000801a9f958
+instanceKlass org/springframework/http/StreamingHttpOutputMessage
+instanceKlass org/springframework/http/converter/json/MappingJacksonValue
+instanceKlass  @bci org/springframework/util/MimeType appendTo (Ljava/util/Map;Ljava/lang/StringBuilder;)V 2 <appendix> member <vmtarget> ; # org/springframework/util/MimeType$$Lambda$1712+0x0000000801a9f328
+instanceKlass org/springframework/web/util/UriUtils
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor writeWithMessageConverters (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/http/server/ServletServerHttpRequest;Lorg/springframework/http/server/ServletServerHttpResponse;)V 755 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor$$Lambda$1711+0x0000000801a9ef08
+instanceKlass com/fasterxml/jackson/databind/introspect/EnumNamingStrategyFactory
+instanceKlass com/fasterxml/jackson/databind/annotation/EnumNaming
+instanceKlass com/fasterxml/jackson/databind/util/EnumValues
+instanceKlass com/fasterxml/jackson/databind/introspect/MethodGenericTypeResolver
+instanceKlass com/fasterxml/jackson/databind/ser/std/NumberSerializers$1
+instanceKlass com/fasterxml/jackson/annotation/JsonFilter
+instanceKlass com/fasterxml/jackson/databind/annotation/JsonAppend
+instanceKlass com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$1
+instanceKlass com/fasterxml/jackson/databind/ser/PropertyBuilder$1
+instanceKlass com/fasterxml/jackson/databind/BeanProperty$Std
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$2
+instanceKlass com/fasterxml/jackson/annotation/JsonTypeId
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$3
+instanceKlass com/fasterxml/jackson/annotation/JsonInclude
+instanceKlass com/fasterxml/jackson/databind/ser/PropertyBuilder
+instanceKlass com/fasterxml/jackson/databind/introspect/AnnotationCollector$TwoAnnotations
+instanceKlass com/fasterxml/jackson/annotation/JsonIgnoreType
+instanceKlass com/fasterxml/jackson/databind/ser/BeanSerializerBuilder
+instanceKlass com/fasterxml/jackson/databind/util/BeanUtil
+instanceKlass com/fasterxml/jackson/databind/ext/Java7Handlers
+instanceKlass org/w3c/dom/Document
+instanceKlass org/w3c/dom/Node
+instanceKlass com/fasterxml/jackson/databind/ext/OptionalHandlerFactory
+instanceKlass com/fasterxml/jackson/databind/PropertyMetadata
+instanceKlass com/fasterxml/jackson/annotation/JsonPropertyDescription
+instanceKlass com/fasterxml/jackson/annotation/JsonPropertyOrder
+instanceKlass com/fasterxml/jackson/databind/annotation/JsonNaming
+instanceKlass com/fasterxml/jackson/annotation/JacksonInject
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$6
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$5
+instanceKlass com/fasterxml/jackson/annotation/JsonCreator
+instanceKlass com/fasterxml/jackson/annotation/JsonSetter
+instanceKlass com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap
+instanceKlass com/fasterxml/jackson/databind/introspect/AnnotatedMethodCollector$MethodBuilder
+instanceKlass com/fasterxml/jackson/databind/introspect/MemberKey
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$Linked
+instanceKlass com/fasterxml/jackson/databind/AnnotationIntrospector$ReferenceProperty
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$WithMember
+instanceKlass com/fasterxml/jackson/annotation/JsonAutoDetect$1
+instanceKlass com/fasterxml/jackson/annotation/JsonProperty
+instanceKlass com/fasterxml/jackson/annotation/JsonGetter
+instanceKlass com/fasterxml/jackson/annotation/JsonAnySetter
+instanceKlass com/fasterxml/jackson/annotation/JsonAnyGetter
+instanceKlass com/fasterxml/jackson/annotation/JsonValue
+instanceKlass com/fasterxml/jackson/annotation/JsonKey
+instanceKlass com/fasterxml/jackson/databind/introspect/AnnotatedFieldCollector$FieldBuilder
+instanceKlass com/fasterxml/jackson/databind/introspect/TypeResolutionContext$Basic
+instanceKlass com/fasterxml/jackson/databind/introspect/CollectorBase
+instanceKlass java/util/stream/DoubleStream
+instanceKlass java/util/stream/LongStream
+instanceKlass com/fasterxml/jackson/databind/introspect/AnnotationMap
+instanceKlass com/fasterxml/jackson/annotation/JacksonAnnotationsInside
+instanceKlass com/fasterxml/jackson/databind/util/internal/PrivateMaxEntriesMap$EntryIterator
+instanceKlass  @bci com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap <init> (Lcom/fasterxml/jackson/databind/util/LookupCache;)V 38 <appendix> member <vmtarget> ; # com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap$$Lambda$1710+0x0000000801a93ec8
+instanceKlass com/fasterxml/jackson/databind/util/TypeKey
+instanceKlass com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap$Bucket
+instanceKlass com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap
+instanceKlass jakarta/xml/bind/annotation/XmlRootElement
+instanceKlass  @bci org/springframework/util/MimeTypeUtils sortBySpecificity (Ljava/util/List;)V 32 <appendix> argL0 ; # org/springframework/util/MimeTypeUtils$$Lambda$1709+0x0000000801a932c8
+instanceKlass org/springframework/web/servlet/mvc/method/annotation/StreamingResponseBody
+instanceKlass org/springframework/web/method/support/AsyncHandlerMethodReturnValueHandler
+instanceKlass org/springframework/http/ResponseEntity$DefaultBuilder
+instanceKlass org/springframework/http/ResponseEntity$BodyBuilder
+instanceKlass org/springframework/http/ResponseEntity$HeadersBuilder
+instanceKlass org/apache/tomcat/PeriodicEventListener
+instanceKlass  @bci org/springframework/ui/ModelMap mergeAttributes (Ljava/util/Map;)Lorg/springframework/ui/ModelMap; 6 <appendix> member <vmtarget> ; # org/springframework/ui/ModelMap$$Lambda$1708+0x0000000801a91e70
+instanceKlass  @bci org/apache/catalina/webresources/Cache backgroundProcess ()V 4 <appendix> argL0 ; # org/apache/catalina/webresources/Cache$$Lambda$1707+0x0000000801a91c68
+instanceKlass org/springframework/web/servlet/support/RequestContextUtils
+instanceKlass org/springframework/web/bind/support/SimpleSessionStatus
+instanceKlass org/springframework/web/bind/support/SessionStatus
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter getModelFactory (Lorg/springframework/web/method/HandlerMethod;Lorg/springframework/web/bind/support/WebDataBinderFactory;)Lorg/springframework/web/method/annotation/ModelFactory; 76 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter$$Lambda$1706+0x0000000801a90720
+instanceKlass org/springframework/web/bind/annotation/SessionAttributes
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter getSessionAttributesHandler (Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/method/annotation/SessionAttributesHandler; 9 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter$$Lambda$1705+0x0000000801a904f0
+instanceKlass org/springframework/validation/DataBinder$NameResolver
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter getDataBinderFactory (Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/bind/support/WebDataBinderFactory; 60 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter$$Lambda$1704+0x0000000801a89000
+instanceKlass org/springframework/web/bind/annotation/InitBinder
+instanceKlass  @bci org/springframework/core/MethodIntrospector selectMethods (Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodFilter;)Ljava/util/Set; 2 <appendix> member <vmtarget> ; # org/springframework/core/MethodIntrospector$$Lambda$1703+0x0000000801a8bc00
+instanceKlass  @bci org/springframework/web/context/request/async/WebAsyncManager setAsyncWebRequest (Lorg/springframework/web/context/request/async/AsyncWebRequest;)V 16 <appendix> member <vmtarget> ; # org/springframework/web/context/request/async/WebAsyncManager$$Lambda$1702+0x0000000801a8b9f0
+instanceKlass org/springframework/orm/jpa/support/AsyncRequestInterceptor
+instanceKlass org/springframework/transaction/support/ResourceHolderSupport
+instanceKlass org/springframework/transaction/support/ResourceHolder
+instanceKlass org/springframework/web/util/WebUtils
+instanceKlass org/springframework/core/log/LogFormatUtils
+instanceKlass  @bci org/springframework/web/servlet/DispatcherServlet logRequest (Ljakarta/servlet/http/HttpServletRequest;)V 6 <appendix> member <vmtarget> ; # org/springframework/web/servlet/DispatcherServlet$$Lambda$1701+0x0000000801a8e620
+instanceKlass org/springframework/web/servlet/FrameworkServlet$RequestBindingInterceptor
+instanceKlass  @bci org/springframework/web/servlet/DispatcherServlet buildLocaleContext (Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/context/i18n/LocaleContext; 27 <appendix> member <vmtarget> ; # org/springframework/web/servlet/DispatcherServlet$$Lambda$1700+0x0000000801a8e1a8
+instanceKlass org/springframework/web/servlet/LocaleContextResolver
+instanceKlass org/springframework/context/i18n/LocaleContextHolder
+instanceKlass  @bci org/springframework/security/web/access/intercept/AuthorizationFilter doFilter (Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;Ljakarta/servlet/FilterChain;)V 101 <appendix> member <vmtarget> ; # org/springframework/security/web/access/intercept/AuthorizationFilter$$Lambda$1699+0x0000000801a8d960
+instanceKlass  @bci org/springframework/web/servlet/handler/PathPatternMatchableHandlerMapping match (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)Lorg/springframework/web/servlet/handler/RequestMatchResult; 7 <appendix> member <vmtarget> ; # org/springframework/web/servlet/handler/PathPatternMatchableHandlerMapping$$Lambda$1698+0x0000000801a8d730
+instanceKlass  @bci org/springframework/security/web/access/intercept/AuthorizationFilter doFilter (Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;Ljakarta/servlet/FilterChain;)V 82 <appendix> member <vmtarget> ; # org/springframework/security/web/access/intercept/AuthorizationFilter$$Lambda$1697+0x0000000801a8d520
+instanceKlass  @bci org/springframework/security/web/authentication/AnonymousAuthenticationFilter defaultWithAnonymous (Ljakarta/servlet/http/HttpServletRequest;Ljava/util/function/Supplier;)Ljava/util/function/Supplier; 3 <appendix> member <vmtarget> ; # org/springframework/security/web/authentication/AnonymousAuthenticationFilter$$Lambda$1696+0x0000000801a8d310
+instanceKlass org/springframework/data/repository/core/support/RepositoryMethodInvoker$RepositoryMethodInvocationCaptor$1
+instanceKlass org/springframework/data/repository/core/support/RepositoryMethodInvocationListener$RepositoryMethodInvocation
+instanceKlass  @bci java/util/function/UnaryOperator identity ()Ljava/util/function/UnaryOperator; 0 <appendix> argL0 ; # java/util/function/UnaryOperator$$Lambda$1695+0x000000080187d700
+instanceKlass org/springframework/data/jpa/repository/query/AbstractJpaQuery$TupleConverter
+instanceKlass  @bci org/hibernate/internal/util/collections/IdentityMap onEachKey (Ljava/util/Map;Ljava/util/function/Consumer;)V 10 <appendix> member <vmtarget> ; # org/hibernate/internal/util/collections/IdentityMap$$Lambda$1694+0x0000000801a875a0
+instanceKlass  @bci org/hibernate/engine/internal/StatefulPersistenceContext clear ()V 82 <appendix> member <vmtarget> ; # org/hibernate/engine/internal/StatefulPersistenceContext$$Lambda$1693+0x0000000801a87380
+instanceKlass org/hibernate/engine/jdbc/internal/JdbcCoordinatorImpl$1
+instanceKlass  @bci org/hibernate/sql/results/jdbc/internal/JdbcValuesSourceProcessingStateStandardImpl finishUp (Z)V 17 <appendix> member <vmtarget> ; # org/hibernate/sql/results/jdbc/internal/JdbcValuesSourceProcessingStateStandardImpl$$Lambda$1692+0x0000000801a86f70
+instanceKlass java/io/ObjectOutputStream$ReplaceTable
+instanceKlass java/io/ObjectOutputStream$HandleTable
+instanceKlass java/io/ObjectInputStream$GetField
+instanceKlass java/io/ObjectStreamClass$ClassDataSlot
+instanceKlass java/io/ObjectStreamClass$FieldReflector
+instanceKlass java/io/ObjectStreamClass$FieldReflectorKey
+instanceKlass jdk/internal/reflect/ClassDefiner$1
+instanceKlass jdk/internal/reflect/ClassDefiner
+instanceKlass jdk/internal/reflect/MethodAccessorGenerator$1
+instanceKlass jdk/internal/reflect/Label$PatchInfo
+instanceKlass jdk/internal/reflect/Label
+instanceKlass jdk/internal/reflect/UTF8
+instanceKlass jdk/internal/reflect/ClassFileAssembler
+instanceKlass jdk/internal/reflect/ByteVectorImpl
+instanceKlass jdk/internal/reflect/ByteVector
+instanceKlass jdk/internal/reflect/ByteVectorFactory
+instanceKlass jdk/internal/reflect/AccessorGenerator
+instanceKlass jdk/internal/reflect/ClassFileConstants
+instanceKlass  @bci jdk/internal/reflect/MethodHandleLongFieldAccessorImpl getLong (Ljava/lang/Object;)J 11 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x0000000801a88000
+instanceKlass java/io/ObjectStreamClass$2
+instanceKlass java/io/ClassCache
+instanceKlass java/io/ObjectStreamClass$Caches
+instanceKlass java/io/ObjectStreamClass
+instanceKlass java/io/Bits
+instanceKlass  @bci java/io/ObjectInputFilter$Config <clinit> ()V 368 <appendix> argL0 ; # java/io/ObjectInputFilter$Config$$Lambda$1691+0x0000000801877eb0
+instanceKlass jdk/internal/access/JavaObjectInputFilterAccess
+instanceKlass java/io/ObjectInputFilter$Config$BuiltinFilterFactory
+instanceKlass  @bci java/io/ObjectInputFilter$Config <clinit> ()V 80 <appendix> argL0 ; # java/io/ObjectInputFilter$Config$$Lambda$1690+0x0000000801877890
+instanceKlass  @bci java/io/ObjectInputFilter$Config <clinit> ()V 56 <appendix> argL0 ; # java/io/ObjectInputFilter$Config$$Lambda$1689+0x0000000801877688
+instanceKlass java/io/ObjectInputFilter
+instanceKlass java/io/ObjectInputFilter$Config
+instanceKlass java/io/ObjectInputStream$ValidationList
+instanceKlass java/io/ObjectInputStream$HandleTable$HandleList
+instanceKlass java/io/ObjectInputStream$HandleTable
+instanceKlass  @bci java/io/ObjectInputStream <clinit> ()V 100 <appendix> argL0 ; # java/io/ObjectInputStream$$Lambda$1688+0x0000000801876198
+instanceKlass jdk/internal/access/JavaObjectInputStreamReadString
+instanceKlass  @bci java/io/ObjectInputStream <clinit> ()V 92 <appendix> argL0 ; # java/io/ObjectInputStream$$Lambda$1687+0x0000000801875da8
+instanceKlass jdk/internal/access/JavaObjectInputStreamAccess
+instanceKlass org/hibernate/internal/util/SerializationHelper
+instanceKlass org/hibernate/Hibernate
+instanceKlass org/hibernate/sql/results/graph/entity/internal/EntitySelectFetchInitializerBuilder$1
+instanceKlass org/hibernate/sql/results/internal/RowTransformerStandardImpl
+instanceKlass  @bci org/hibernate/internal/SessionImpl initializeCollection (Lorg/hibernate/collection/spi/PersistentCollection;Z)V 26 <appendix> argL0 ; # org/hibernate/internal/SessionImpl$$Lambda$1686+0x0000000801a857b8
+instanceKlass  @bci org/hibernate/collection/spi/AbstractPersistentCollection initialize (Z)V 10 <appendix> member <vmtarget> ; # org/hibernate/collection/spi/AbstractPersistentCollection$$Lambda$1685+0x0000000801a85178
+instanceKlass  @bci org/hibernate/engine/internal/StatefulPersistenceContext initializeNonLazyCollections ()V 1 <appendix> argL0 ; # org/hibernate/engine/internal/StatefulPersistenceContext$$Lambda$1684+0x0000000801a84f60
+instanceKlass  @bci org/hibernate/resource/jdbc/internal/ResourceRegistryStandardImpl closeAll (Ljava/util/HashMap;)V 6 <appendix> argL0 ; # org/hibernate/resource/jdbc/internal/ResourceRegistryStandardImpl$$Lambda$1683+0x0000000801a84d48
+instanceKlass org/hibernate/event/internal/DefaultPostLoadEventListener$1
+instanceKlass  @bci org/hibernate/engine/internal/StatefulPersistenceContext processLoadedEntityHolder (Lorg/hibernate/engine/spi/EntityHolder;Lorg/hibernate/event/service/spi/EventListenerGroup;Lorg/hibernate/event/spi/PostLoadEvent;Lorg/hibernate/sql/exec/spi/Callback;Ljava/util/function/Consumer;)V 79 <appendix> argL0 ; # org/hibernate/engine/internal/StatefulPersistenceContext$$Lambda$1682+0x0000000801a84940
+instanceKlass com/mysql/cj/util/DataTypeUtil
+instanceKlass  @bci org/hibernate/sql/results/graph/collection/internal/AbstractImmediateCollectionInitializer initializeInstance (Lorg/hibernate/sql/results/jdbc/spi/RowProcessingState;)V 81 <appendix> member <vmtarget> ; # org/hibernate/sql/results/graph/collection/internal/AbstractImmediateCollectionInitializer$$Lambda$1681+0x0000000801a84530
+instanceKlass  @bci org/hibernate/persister/entity/AbstractEntityPersister afterInitialize (Ljava/lang/Object;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)V 80 <appendix> argL0 ; # org/hibernate/persister/entity/AbstractEntityPersister$$Lambda$1680+0x0000000801a84328
+instanceKlass org/hibernate/engine/internal/ManagedTypeHelper$ManagedEntityConsumer
+instanceKlass  @bci org/hibernate/persister/entity/AbstractEntityPersister afterInitialize (Ljava/lang/Object;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)V 71 <appendix> argL0 ; # org/hibernate/persister/entity/AbstractEntityPersister$$Lambda$1679+0x0000000801a83f38
+instanceKlass org/hibernate/engine/internal/ManagedTypeHelper$SelfDirtinessTrackerConsumer
+instanceKlass org/hibernate/property/access/internal/PropertyAccessStrategyBackRefImpl$1
+instanceKlass org/hibernate/property/access/internal/PropertyAccessStrategyBackRefImpl
+instanceKlass org/hibernate/engine/internal/EntityEntryContext$ManagedEntityImpl
+instanceKlass org/hibernate/engine/internal/AbstractEntityEntry$EnumState
+instanceKlass org/hibernate/engine/spi/EntityEntryExtraState
+instanceKlass org/hibernate/engine/internal/AbstractEntityEntry
+instanceKlass org/hibernate/bytecode/enhance/spi/LazyPropertyInitializer$1
+instanceKlass  @bci org/hibernate/sql/results/graph/entity/AbstractEntityInitializer preLoad (Lorg/hibernate/sql/results/jdbc/spi/RowProcessingState;)V 98 <appendix> argL0 ; # org/hibernate/sql/results/graph/entity/AbstractEntityInitializer$$Lambda$1678+0x0000000801a81dd8
+instanceKlass  @bci org/hibernate/sql/results/graph/collection/internal/AbstractImmediateCollectionInitializer resolveInstance (Lorg/hibernate/sql/results/jdbc/spi/RowProcessingState;)V 700 <appendix> member <vmtarget> ; # org/hibernate/sql/results/graph/collection/internal/AbstractImmediateCollectionInitializer$$Lambda$1677+0x0000000801a815e0
+instanceKlass org/hibernate/sql/results/internal/LoadingCollectionEntryImpl
+instanceKlass com/mysql/cj/protocol/a/NumberValueEncoder$1
+instanceKlass org/hibernate/sql/results/internal/domain/CircularBiDirectionalFetchImpl$CircularBiDirectionalFetchAssembler
+instanceKlass  @bci org/hibernate/loader/ast/internal/SingleUniqueKeyEntityLoaderStandard load (Ljava/lang/Object;Lorg/hibernate/LockOptions;Ljava/lang/Boolean;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Ljava/lang/Object; 108 <appendix> argL0 ; # org/hibernate/loader/ast/internal/SingleUniqueKeyEntityLoaderStandard$$Lambda$1676+0x0000000801a7f680
+instanceKlass org/hibernate/sql/exec/internal/CallbackImpl
+instanceKlass  @bci org/hibernate/loader/ast/internal/SingleUniqueKeyEntityLoaderStandard <init> (Lorg/hibernate/metamodel/mapping/EntityMappingType;Lorg/hibernate/metamodel/mapping/SingularAttributeMapping;)V 84 <appendix> member <vmtarget> ; # org/hibernate/loader/ast/internal/SingleUniqueKeyEntityLoaderStandard$$Lambda$1675+0x0000000801a7ef00
+instanceKlass org/hibernate/loader/ast/internal/SingleUniqueKeyEntityLoaderStandard
+instanceKlass org/hibernate/engine/spi/EntityUniqueKey
+instanceKlass org/hibernate/internal/util/collections/IdentityMap$IdentityKey
+instanceKlass org/hibernate/internal/util/collections/IdentityMap
+instanceKlass org/hibernate/engine/spi/CollectionEntry
+instanceKlass  @bci org/hibernate/sql/results/graph/collection/internal/AbstractCollectionInitializer resolveInstance (Lorg/hibernate/sql/results/jdbc/spi/RowProcessingState;Z)V 254 <appendix> member <vmtarget> ; # org/hibernate/sql/results/graph/collection/internal/AbstractCollectionInitializer$$Lambda$1674+0x0000000801a7e118
+instanceKlass org/hibernate/collection/spi/PersistentCollection$1
+instanceKlass org/hibernate/collection/spi/AbstractPersistentCollection$DelayedOperation
+instanceKlass org/hibernate/collection/spi/AbstractPersistentCollection$LazyInitializationWork
+instanceKlass org/hibernate/collection/spi/AbstractPersistentCollection
+instanceKlass  @bci org/hibernate/sql/results/spi/LoadContexts findLoadingCollectionEntry (Lorg/hibernate/engine/spi/CollectionKey;)Lorg/hibernate/sql/results/graph/collection/LoadingCollectionEntry; 5 <appendix> argL0 ; # org/hibernate/sql/results/spi/LoadContexts$$Lambda$1673+0x0000000801a7cae8
+instanceKlass org/hibernate/sql/results/graph/collection/LoadingCollectionEntry
+instanceKlass org/hibernate/sql/results/graph/embeddable/internal/EmbeddableAssembler
+instanceKlass  @bci org/hibernate/persister/entity/AbstractEntityPersister linkToSession (Ljava/lang/Object;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)V 6 <appendix> member <vmtarget> ; # org/hibernate/persister/entity/AbstractEntityPersister$$Lambda$1672+0x0000000801a7c490
+instanceKlass org/hibernate/engine/internal/ManagedTypeHelper$PersistentAttributeInterceptableAction
+instanceKlass org/hibernate/engine/internal/StatefulPersistenceContext$EntityHolderImpl
+instanceKlass org/hibernate/sql/results/graph/collection/CollectionLoadingLogger
+instanceKlass org/hibernate/engine/spi/CollectionKey
+instanceKlass org/hibernate/engine/spi/EntityKey
+instanceKlass org/hibernate/type/descriptor/JdbcExtractingLogging
+instanceKlass org/hibernate/sql/results/graph/entity/EntityLoadingLogging
+instanceKlass com/mysql/cj/protocol/a/StringValueEncoder$1
+instanceKlass org/hibernate/type/descriptor/JdbcBindingLogging
+instanceKlass org/hibernate/engine/jdbc/spi/JdbcWrapper
+instanceKlass org/hibernate/engine/jdbc/internal/StatementPreparerImpl$StatementPreparationTemplate
+instanceKlass org/hibernate/engine/jdbc/internal/StatementPreparerImpl
+instanceKlass org/hibernate/sql/results/spi/LoadContexts
+instanceKlass org/hibernate/sql/results/LoadingLogger
+instanceKlass org/hibernate/sql/results/internal/StandardRowReader
+instanceKlass org/hibernate/sql/results/internal/InitializersList
+instanceKlass org/hibernate/sql/results/graph/entity/internal/AbstractBatchEntitySelectFetchInitializer
+instanceKlass org/hibernate/sql/results/graph/entity/internal/EntitySelectFetchInitializerBuilder
+instanceKlass org/hibernate/sql/results/internal/domain/CircularFetchImpl$CircularFetchAssembler
+instanceKlass org/hibernate/sql/results/graph/entity/internal/DiscriminatedEntityInitializer
+instanceKlass org/hibernate/sql/results/graph/entity/internal/EntitySelectFetchInitializer
+instanceKlass org/hibernate/sql/results/graph/entity/internal/EntityDelayedFetchInitializer
+instanceKlass org/hibernate/sql/results/internal/NavigablePathMapToInitializer$InitializerHolder
+instanceKlass org/hibernate/sql/results/ResultsLogger
+instanceKlass org/hibernate/sql/results/graph/collection/internal/AbstractCollectionInitializer
+instanceKlass org/hibernate/sql/results/graph/collection/internal/CollectionAssembler
+instanceKlass org/hibernate/sql/results/graph/FetchParentAccess$1
+instanceKlass org/hibernate/sql/results/graph/AbstractFetchParentAccess
+instanceKlass org/hibernate/sql/results/graph/entity/internal/EntityAssembler
+instanceKlass org/hibernate/sql/results/internal/ResultsHelper$1
+instanceKlass org/hibernate/sql/results/internal/InitializersList$Builder
+instanceKlass org/hibernate/sql/results/internal/NavigablePathMapToInitializer
+instanceKlass org/hibernate/sql/results/spi/RowReader
+instanceKlass org/hibernate/sql/results/graph/AssemblerCreationState
+instanceKlass org/hibernate/sql/results/internal/ResultsHelper
+instanceKlass org/hibernate/sql/results/jdbc/internal/JdbcValuesSourceProcessingStateStandardImpl
+instanceKlass org/hibernate/sql/exec/internal/JdbcSelectExecutorStandardImpl$1
+instanceKlass org/hibernate/sql/results/caching/QueryCachePutManager
+instanceKlass org/hibernate/sql/results/jdbc/internal/AbstractJdbcValues
+instanceKlass org/hibernate/sql/exec/SqlExecLogger
+instanceKlass  @bci org/hibernate/sql/exec/internal/JdbcExecHelper resolveCacheMode (Lorg/hibernate/query/spi/QueryOptions;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/CacheMode; 29 <appendix> argL0 ; # org/hibernate/sql/exec/internal/JdbcExecHelper$$Lambda$1671+0x0000000801a6fc38
+instanceKlass  @bci org/hibernate/sql/exec/internal/JdbcExecHelper resolveCacheMode (Lorg/hibernate/query/spi/QueryOptions;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/CacheMode; 21 <appendix> member <vmtarget> ; # org/hibernate/sql/exec/internal/JdbcExecHelper$$Lambda$1670+0x0000000801a6fa28
+instanceKlass  @bci org/hibernate/sql/exec/internal/JdbcExecHelper resolveCacheMode (Lorg/hibernate/query/spi/QueryOptions;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)Lorg/hibernate/CacheMode; 7 <appendix> member <vmtarget> ; # org/hibernate/sql/exec/internal/JdbcExecHelper$$Lambda$1669+0x0000000801a6f818
+instanceKlass org/hibernate/sql/exec/internal/JdbcExecHelper
+instanceKlass org/hibernate/dialect/pagination/AbstractLimitHandler
+instanceKlass org/hibernate/sql/results/jdbc/internal/AbstractResultSetAccess
+instanceKlass org/hibernate/sql/results/spi/ListResultsConsumer$1
+instanceKlass org/hibernate/sql/results/spi/ListResultsConsumer$Results
+instanceKlass org/hibernate/sql/results/jdbc/spi/JdbcValuesSourceProcessingState
+instanceKlass org/hibernate/sql/results/spi/ListResultsConsumer
+instanceKlass  @bci org/hibernate/sql/exec/spi/JdbcSelectExecutor list (Lorg/hibernate/sql/exec/spi/JdbcOperationQuerySelect;Lorg/hibernate/sql/exec/spi/JdbcParameterBindings;Lorg/hibernate/sql/exec/spi/ExecutionContext;Lorg/hibernate/sql/results/spi/RowTransformer;Ljava/lang/Class;Lorg/hibernate/sql/results/spi/ListResultsConsumer$UniqueSemantic;)Ljava/util/List; 9 <appendix> member <vmtarget> ; # org/hibernate/sql/exec/spi/JdbcSelectExecutor$$Lambda$1668+0x0000000801a6ba90
+instanceKlass org/hibernate/query/spi/DelegatingQueryOptions
+instanceKlass org/hibernate/sql/results/jdbc/spi/RowProcessingState
+instanceKlass org/hibernate/sql/exec/internal/JdbcSelectExecutorStandardImpl
+instanceKlass org/hibernate/engine/spi/SubselectFetch$StandardRegistrationHandler
+instanceKlass org/hibernate/engine/spi/SubselectFetch$1
+instanceKlass org/hibernate/engine/spi/SubselectFetch$RegistrationHandler
+instanceKlass org/hibernate/engine/spi/SubselectFetch
+instanceKlass org/hibernate/engine/spi/BatchFetchQueue
+instanceKlass org/hibernate/sql/ast/tree/expression/SqlTuple
+instanceKlass org/hibernate/metamodel/mapping/DiscriminatedAssociationModelPart
+instanceKlass org/hibernate/query/internal/BindingTypeHelper
+instanceKlass org/hibernate/sql/exec/internal/JdbcParameterBindingImpl
+instanceKlass  @bci org/hibernate/sql/exec/spi/JdbcParameterBindings registerParametersForEachJdbcValue (Ljava/lang/Object;ILorg/hibernate/metamodel/mapping/Bindable;Lorg/hibernate/sql/exec/spi/JdbcParametersList;Lorg/hibernate/engine/spi/SharedSessionContractImplementor;)I 56 <appendix> member <vmtarget> ; # org/hibernate/sql/exec/spi/JdbcParameterBindings$$Lambda$1667+0x0000000801a69938
+instanceKlass  @cpi org/hibernate/sql/exec/spi/JdbcParameterBindings 82 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801a6c000
+instanceKlass org/hibernate/sql/exec/internal/JdbcParameterBindingsImpl
+instanceKlass org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$2
+instanceKlass  @bci org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan buildCacheableSqmInterpretation (Lorg/hibernate/query/sqm/tree/select/SqmSelectStatement;Lorg/hibernate/query/sqm/internal/DomainParameterXref;Lorg/hibernate/query/spi/DomainQueryExecutionContext;)Lorg/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$CacheableSqmInterpretation; 162 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$$Lambda$1666+0x0000000801a69280
+instanceKlass  @bci org/hibernate/query/sqm/internal/SqmUtil generateJdbcParamsXref (Lorg/hibernate/query/sqm/internal/DomainParameterXref;Lorg/hibernate/query/sqm/spi/JdbcParameterBySqmParameterAccess;)Ljava/util/Map; 96 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/internal/SqmUtil$$Lambda$1665+0x0000000801a69050
+instanceKlass  @bci org/hibernate/internal/util/collections/LinkedIdentityHashMap entrySet ()Ljava/util/Set; 18 <appendix> argL0 ; # org/hibernate/internal/util/collections/LinkedIdentityHashMap$$Lambda$1664+0x0000000801a68e48
+instanceKlass  @bci org/hibernate/internal/util/collections/LinkedIdentityHashMap entrySet ()Ljava/util/Set; 8 <appendix> member <vmtarget> ; # org/hibernate/internal/util/collections/LinkedIdentityHashMap$$Lambda$1663+0x0000000801a68c18
+instanceKlass  @bci org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan buildCacheableSqmInterpretation (Lorg/hibernate/query/sqm/tree/select/SqmSelectStatement;Lorg/hibernate/query/sqm/internal/DomainParameterXref;Lorg/hibernate/query/spi/DomainQueryExecutionContext;)Lorg/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$CacheableSqmInterpretation; 120 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$$Lambda$1662+0x0000000801a68a08
+instanceKlass org/hibernate/query/sqm/sql/StandardSqmTranslation
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitOrderByOffsetAndFetch (Lorg/hibernate/query/sqm/tree/select/SqmQueryPart;Lorg/hibernate/sql/ast/tree/select/QueryPart;)V 160 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1661+0x0000000801a68000
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitOrderByOffsetAndFetch (Lorg/hibernate/query/sqm/tree/select/SqmQueryPart;Lorg/hibernate/sql/ast/tree/select/QueryPart;)V 23 <appendix> argL0 ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1660+0x0000000801a67c38
+instanceKlass org/hibernate/query/sqm/sql/internal/SqmParameterInterpretation
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter consumeSqmParameter (Lorg/hibernate/query/sqm/tree/expression/SqmParameter;Lorg/hibernate/metamodel/mapping/MappingModelExpressible;Ljava/util/function/BiConsumer;)Lorg/hibernate/sql/ast/tree/expression/Expression; 39 <appendix> argL0 ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1659+0x0000000801a673a0
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter resolveSqmParameter (Lorg/hibernate/query/sqm/tree/expression/SqmParameter;Lorg/hibernate/metamodel/mapping/MappingModelExpressible;Ljava/util/function/BiConsumer;)V 87 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1658+0x0000000801a66be0
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter consumeSqmParameter (Lorg/hibernate/query/sqm/tree/expression/SqmParameter;Lorg/hibernate/metamodel/mapping/MappingModelExpressible;Ljava/util/function/BiConsumer;)Lorg/hibernate/sql/ast/tree/expression/Expression; 15 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1657+0x0000000801a669c0
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter consumeSingleSqmParameter (Lorg/hibernate/query/sqm/tree/expression/SqmParameter;)Lorg/hibernate/sql/ast/tree/expression/Expression; 7 <appendix> argL0 ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1656+0x0000000801a667a8
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter determineValueMapping (Lorg/hibernate/query/sqm/tree/expression/SqmExpression;Lorg/hibernate/query/sqm/sql/FromClauseIndex;)Lorg/hibernate/metamodel/mapping/MappingModelExpressible; 44 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1655+0x0000000801a66578
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitComparisonPredicate (Lorg/hibernate/query/sqm/tree/predicate/SqmComparisonPredicate;)Lorg/hibernate/sql/ast/tree/predicate/ComparisonPredicate; 79 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1654+0x0000000801a66368
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter prepareReusablePath (Lorg/hibernate/query/sqm/tree/domain/SqmPath;Lorg/hibernate/query/sqm/sql/FromClauseIndex;Ljava/util/function/Supplier;Z)Ljava/lang/Object; 0 <appendix> argL0 ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1653+0x0000000801a64058
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitBasicValuedPath (Lorg/hibernate/query/sqm/tree/domain/SqmBasicValuedSimplePath;)Lorg/hibernate/sql/ast/tree/expression/Expression; 4 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1652+0x0000000801a63e48
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitComparisonPredicate (Lorg/hibernate/query/sqm/tree/predicate/SqmComparisonPredicate;)Lorg/hibernate/sql/ast/tree/predicate/ComparisonPredicate; 20 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1651+0x0000000801a638c0
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitWhereClause (Lorg/hibernate/query/sqm/tree/predicate/SqmPredicate;)Lorg/hibernate/sql/ast/tree/predicate/Predicate; 22 <appendix> argL0 ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1650+0x0000000801a636b8
+instanceKlass org/hibernate/sql/results/graph/instantiation/internal/DynamicInstantiation
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitSelection (ILorg/hibernate/query/sqm/tree/select/SqmSelection;)Ljava/lang/Void; 363 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1649+0x0000000801a63248
+instanceKlass org/hibernate/query/sqm/sql/internal/AbstractSqmPathInterpretation
+instanceKlass org/hibernate/query/derived/AnonymousTupleEntityValuedModelPart
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter registerEntityNameUsage (Lorg/hibernate/sql/ast/tree/from/TableGroup;Lorg/hibernate/persister/entity/EntityNameUse;Ljava/lang/String;Z)V 432 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1648+0x0000000801a614e0
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter registerEntityNameUsage (Lorg/hibernate/sql/ast/tree/from/TableGroup;Lorg/hibernate/persister/entity/EntityNameUse;Ljava/lang/String;Z)V 159 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1647+0x0000000801a612c0
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter registerEntityNameUsage (Lorg/hibernate/sql/ast/tree/from/TableGroup;Lorg/hibernate/persister/entity/EntityNameUse;Ljava/lang/String;Z)V 139 <appendix> argL0 ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1646+0x0000000801a61098
+instanceKlass org/hibernate/persister/entity/EntityNameUse
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter consumeExplicitJoins (Lorg/hibernate/query/sqm/tree/from/SqmFrom;Lorg/hibernate/sql/ast/tree/from/TableGroup;)V 27 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1645+0x0000000801a60870
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter consumeFromClauseRoot (Lorg/hibernate/query/sqm/tree/from/SqmRoot;)V 319 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1644+0x0000000801a60650
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter consumeFromClauseRoot (Lorg/hibernate/query/sqm/tree/from/SqmRoot;)V 298 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1643+0x0000000801a60440
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitFromClause (Lorg/hibernate/query/sqm/tree/from/SqmFromClause;)Ljava/lang/Void; 24 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1642+0x0000000801a60220
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitFromClause (Lorg/hibernate/query/sqm/tree/from/SqmFromClause;)Ljava/lang/Void; 14 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1641+0x0000000801a60000
+instanceKlass org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$SqmAliasedNodePositionTracker
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitQuerySpec (Lorg/hibernate/query/sqm/tree/select/SqmQuerySpec;)Lorg/hibernate/sql/ast/tree/select/QuerySpec; 175 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1640+0x0000000801a5f240
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter visitQuerySpec (Lorg/hibernate/query/sqm/tree/select/SqmQuerySpec;)Lorg/hibernate/sql/ast/tree/select/QuerySpec; 161 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1639+0x0000000801a5f010
+instanceKlass org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$CteContainerImpl
+instanceKlass  @bci org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter <init> (Lorg/hibernate/sql/ast/spi/SqlAstCreationContext;Lorg/hibernate/query/sqm/tree/SqmStatement;Lorg/hibernate/query/spi/QueryOptions;Lorg/hibernate/engine/spi/LoadQueryInfluencers;Lorg/hibernate/query/sqm/internal/DomainParameterXref;Lorg/hibernate/query/spi/QueryParameterBindings;Z)V 146 <appendix> argL0 ; # org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter$$Lambda$1638+0x0000000801a5eba0
+instanceKlass org/hibernate/query/sqm/sql/SqmTranslation
+instanceKlass  @bci org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan <init> (Lorg/hibernate/query/sqm/tree/select/SqmSelectStatement;Ljava/lang/String;Lorg/hibernate/query/sqm/internal/DomainParameterXref;Ljava/lang/Class;Lorg/hibernate/sql/results/internal/TupleMetadata;Lorg/hibernate/query/spi/QueryOptions;)V 85 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$$Lambda$1637+0x0000000801a58650
+instanceKlass  @bci org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan <init> (Lorg/hibernate/query/sqm/tree/select/SqmSelectStatement;Ljava/lang/String;Lorg/hibernate/query/sqm/internal/DomainParameterXref;Ljava/lang/Class;Lorg/hibernate/sql/results/internal/TupleMetadata;Lorg/hibernate/query/spi/QueryOptions;)V 74 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$$Lambda$1636+0x0000000801a58440
+instanceKlass  @bci org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan <init> (Lorg/hibernate/query/sqm/tree/select/SqmSelectStatement;Ljava/lang/String;Lorg/hibernate/query/sqm/internal/DomainParameterXref;Ljava/lang/Class;Lorg/hibernate/sql/results/internal/TupleMetadata;Lorg/hibernate/query/spi/QueryOptions;)V 60 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$$Lambda$1635+0x0000000801a58230
+instanceKlass org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$CacheableSqmInterpretation
+instanceKlass org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan$SqmInterpreter
+instanceKlass org/hibernate/sql/results/internal/RowTransformerSingularReturnImpl
+instanceKlass org/hibernate/query/sqm/spi/SqmParameterMappingModelResolutionAccess
+instanceKlass org/hibernate/sql/exec/internal/BaseExecutionContext
+instanceKlass org/hibernate/query/sqm/internal/ConcreteSqmSelectQueryPlan
+instanceKlass  @bci org/hibernate/query/hql/internal/QuerySplitter findUnmappedPolymorphicReference (Lorg/hibernate/query/sqm/tree/select/SqmQueryPart;)Lorg/hibernate/query/sqm/tree/from/SqmRoot; 19 <appendix> argL0 ; # org/hibernate/query/hql/internal/QuerySplitter$$Lambda$1634+0x0000000801a543d8
+instanceKlass org/hibernate/query/sqm/tree/SqmDeleteOrUpdateStatement
+instanceKlass org/hibernate/query/hql/internal/QuerySplitter
+instanceKlass org/hibernate/query/sqm/internal/SqmInterpretationsKey
+instanceKlass org/hibernate/query/sqm/internal/AppliedGraphs
+instanceKlass  @bci org/hibernate/query/internal/QueryParameterBindingsImpl validate ()V 5 <appendix> member <vmtarget> ; # org/hibernate/query/internal/QueryParameterBindingsImpl$$Lambda$1633+0x0000000801a4f8d0
+instanceKlass  @bci org/springframework/data/jpa/repository/query/JpaQueryMethod lambda$0 (Ljava/lang/reflect/Method;)Ljakarta/persistence/LockModeType; 13 <appendix> argL0 ; # org/springframework/data/jpa/repository/query/JpaQueryMethod$$Lambda$1632+0x0000000801a4f6a8
+instanceKlass org/springframework/data/jpa/repository/Lock
+instanceKlass org/springframework/data/jpa/repository/EntityGraph
+instanceKlass  @bci org/springframework/data/jpa/repository/query/JpaQueryMethod doFindAnnotation (Ljava/lang/Class;)Ljava/util/Optional; 6 <appendix> member <vmtarget> ; # org/springframework/data/jpa/repository/query/JpaQueryMethod$$Lambda$1631+0x0000000801a4f0a8
+instanceKlass org/springframework/data/jpa/repository/Meta
+instanceKlass org/hibernate/query/spi/QueryParameterBindingValidator
+instanceKlass org/hibernate/query/internal/QueryParameterBindingImpl
+instanceKlass  @bci org/springframework/data/jpa/repository/query/QueryParameterSetter$NamedOrIndexedQueryParameterSetter setParameter (Lorg/springframework/data/jpa/repository/query/QueryParameterSetter$BindableQuery;Lorg/springframework/data/jpa/repository/query/JpaParametersParameterAccessor;Lorg/springframework/data/jpa/repository/query/QueryParameterSetter$ErrorHandling;)V 188 <appendix> member <vmtarget> ; # org/springframework/data/jpa/repository/query/QueryParameterSetter$NamedOrIndexedQueryParameterSetter$$Lambda$1630+0x0000000801a4e540
+instanceKlass org/springframework/data/jpa/repository/query/QueryParameterSetter$QueryMetadata
+instanceKlass org/hibernate/query/KeyedResultList
+instanceKlass org/hibernate/query/KeyedPage
+instanceKlass org/hibernate/query/Page
+instanceKlass org/hibernate/query/Order
+instanceKlass org/hibernate/query/spi/ScrollableResultsImplementor
+instanceKlass org/hibernate/transform/ResultTransformer
+instanceKlass org/springframework/orm/jpa/SharedEntityManagerCreator$DeferredQueryInvocationHandler
+instanceKlass  @bci org/springframework/orm/jpa/SharedEntityManagerCreator$SharedEntityManagerInvocationHandler invoke (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; 761 <appendix> member <vmtarget> ; # org/springframework/orm/jpa/SharedEntityManagerCreator$SharedEntityManagerInvocationHandler$$Lambda$1629+0x0000000801a4c2e8
+instanceKlass jakarta/persistence/Tuple
+instanceKlass org/hibernate/query/sqm/internal/SqmUtil$ParameterResolutionsImpl
+instanceKlass  @bci org/hibernate/query/sqm/spi/BaseSemanticQueryWalker visitGroupByClause (Ljava/util/List;)Ljava/lang/Object; 6 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/spi/BaseSemanticQueryWalker$$Lambda$1628+0x0000000801a4bcb8
+instanceKlass  @bci org/hibernate/query/sqm/internal/SqmUtil$CriteriaParameterCollector process (Lorg/hibernate/query/sqm/tree/expression/SqmParameter;)V 58 <appendix> argL0 ; # org/hibernate/query/sqm/internal/SqmUtil$CriteriaParameterCollector$$Lambda$1627+0x0000000801a4ba90
+instanceKlass org/hibernate/query/sqm/tree/expression/SqmExpressionHelper
+instanceKlass  @bci org/hibernate/query/sqm/spi/BaseSemanticQueryWalker visitSelectClause (Lorg/hibernate/query/sqm/tree/select/SqmSelectClause;)Ljava/lang/Object; 11 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/spi/BaseSemanticQueryWalker$$Lambda$1626+0x0000000801a47c20
+instanceKlass  @bci org/hibernate/query/sqm/spi/BaseSemanticQueryWalker consumeExplicitJoins (Lorg/hibernate/query/sqm/tree/from/SqmFrom;)V 2 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/spi/BaseSemanticQueryWalker$$Lambda$1625+0x0000000801a47a00
+instanceKlass  @bci org/hibernate/query/sqm/spi/BaseSemanticQueryWalker visitFromClause (Lorg/hibernate/query/sqm/tree/from/SqmFromClause;)Ljava/lang/Object; 2 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/spi/BaseSemanticQueryWalker$$Lambda$1624+0x0000000801a477e0
+instanceKlass org/hibernate/query/sqm/spi/BaseSemanticQueryWalker
+instanceKlass  @bci org/hibernate/query/sqm/internal/SqmUtil resolveParameters (Lorg/hibernate/query/sqm/tree/SqmStatement;)Lorg/hibernate/query/sqm/tree/SqmStatement$ParameterResolutions; 27 <appendix> member <vmtarget> ; # org/hibernate/query/sqm/internal/SqmUtil$$Lambda$1623+0x0000000801a46290
+instanceKlass org/hibernate/query/sqm/internal/SqmUtil$CriteriaParameterCollector
+instanceKlass org/hibernate/query/sqm/internal/SimpleSqmCopyContext
+instanceKlass org/hibernate/query/sqm/tree/SqmCopyContext
+instanceKlass org/hibernate/query/criteria/spi/HibernateCriteriaBuilderDelegate
+instanceKlass org/springframework/data/repository/core/support/RepositoryMethodInvocationListener$RepositoryMethodInvocationResult
+instanceKlass org/springframework/data/repository/core/support/RepositoryMethodInvoker$RepositoryMethodInvocationCaptor
+instanceKlass  @bci org/springframework/data/repository/core/support/RepositoryMethodInvoker$RepositoryQueryMethodInvoker <init> (Ljava/lang/reflect/Method;Lorg/springframework/data/repository/query/RepositoryQuery;)V 8 <appendix> member <vmtarget> ; # org/springframework/data/repository/core/support/RepositoryMethodInvoker$RepositoryQueryMethodInvoker$$Lambda$1622+0x0000000801a41b98
+instanceKlass org/springframework/data/repository/core/support/RepositoryMethodInvoker$Invokable
+instanceKlass org/springframework/transaction/interceptor/TransactionInterceptor$1
+instanceKlass org/springframework/aop/framework/ReflectiveMethodInvocation
+instanceKlass org/springframework/aop/ProxyMethodInvocation
+instanceKlass org/springframework/aop/ThrowsAdvice
+instanceKlass  @bci org/springframework/aop/framework/AdvisedSupport getInterceptorsAndDynamicInterceptionAdvice (Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/util/List; 51 <appendix> member <vmtarget> ; # org/springframework/aop/framework/AdvisedSupport$$Lambda$1621+0x0000000801a404e8
+instanceKlass org/springframework/aop/framework/AdvisedSupport$MethodCacheKey
+instanceKlass com/auth0/jwt/impl/JsonNodeClaim
+instanceKlass javax/crypto/MacSpi
+instanceKlass  @bci javax/crypto/spec/SecretKeySpec <clinit> ()V 0 <appendix> argL0 ; # javax/crypto/spec/SecretKeySpec$$Lambda$1620+0x0000000801875330
+instanceKlass jdk/internal/access/JavaxCryptoSpecAccess
+instanceKlass javax/crypto/spec/SecretKeySpec
+instanceKlass javax/crypto/SecretKey
+instanceKlass  @bci javax/crypto/ProviderVerifier isTrustedModule ()Z 61 <appendix> argL0 ; # javax/crypto/ProviderVerifier$$Lambda$1619+0x0000000801874ac0
+instanceKlass javax/crypto/ProviderVerifier$1
+instanceKlass javax/crypto/ProviderVerifier
+instanceKlass javax/crypto/JceSecurity$2
+instanceKlass javax/crypto/JceSecurity$IdentityWrapper
+instanceKlass java/net/spi/URLStreamHandlerProvider
+instanceKlass java/net/URL$1
+instanceKlass java/net/URL$2
+instanceKlass jdk/internal/misc/ThreadTracker
+instanceKlass java/net/URL$ThreadTrackHolder
+instanceKlass javax/crypto/CryptoPolicyParser$CryptoPermissionEntry
+instanceKlass javax/crypto/CryptoPolicyParser$GrantEntry
+instanceKlass javax/crypto/CryptoPolicyParser
+instanceKlass java/nio/file/Files$1
+instanceKlass sun/nio/fs/WindowsFileSystem$2
+instanceKlass java/nio/file/PathMatcher
+instanceKlass sun/nio/fs/Globs
+instanceKlass sun/nio/fs/WindowsFileSystemProvider$1
+instanceKlass javax/crypto/JceSecurity$1
+instanceKlass javax/crypto/JceSecurity
+instanceKlass javax/crypto/Mac
+instanceKlass com/auth0/jwt/impl/PayloadImpl
+instanceKlass com/fasterxml/jackson/core/io/NumberInput
+instanceKlass com/auth0/jwt/impl/BasicHeader
+instanceKlass com/fasterxml/jackson/databind/deser/std/BaseNodeDeserializer$ContainerStack
+instanceKlass com/fasterxml/jackson/databind/annotation/JacksonStdImpl
+instanceKlass com/fasterxml/jackson/databind/deser/ContextualKeyDeserializer
+instanceKlass com/fasterxml/jackson/databind/util/LinkedNode
+instanceKlass com/fasterxml/jackson/annotation/JsonIncludeProperties$Value
+instanceKlass com/fasterxml/jackson/annotation/JsonIncludeProperties
+instanceKlass com/fasterxml/jackson/databind/util/IgnorePropertiesUtil
+instanceKlass com/fasterxml/jackson/annotation/JsonIgnoreProperties$Value
+instanceKlass com/fasterxml/jackson/databind/deser/impl/NullsConstantProvider
+instanceKlass com/fasterxml/jackson/core/JsonLocation
+instanceKlass com/fasterxml/jackson/databind/deser/impl/JDKValueInstantiators
+instanceKlass com/fasterxml/jackson/databind/annotation/JsonValueInstantiator
+instanceKlass com/fasterxml/jackson/databind/deser/BasicDeserializerFactory$ContainerDefaultMappings
+instanceKlass com/fasterxml/jackson/databind/type/TypeBindings$AsKey
+instanceKlass com/fasterxml/jackson/databind/type/TypeBindings$TypeParamStash
+instanceKlass com/fasterxml/jackson/core/JsonStreamContext
+instanceKlass com/fasterxml/jackson/core/util/TextBuffer
+instanceKlass com/fasterxml/jackson/core/io/IOContext
+instanceKlass com/fasterxml/jackson/core/util/BufferRecycler
+instanceKlass com/fasterxml/jackson/core/util/BufferRecyclers
+instanceKlass com/fasterxml/jackson/core/io/ContentReference
+instanceKlass java/util/Base64$Encoder
+instanceKlass java/util/Base64$Decoder
+instanceKlass java/util/Base64
+instanceKlass com/auth0/jwt/TokenUtils
+instanceKlass com/auth0/jwt/JWTDecoder
+instanceKlass com/fasterxml/jackson/databind/annotation/JsonTypeResolver
+instanceKlass com/fasterxml/jackson/databind/util/ArrayIterator
+instanceKlass com/fasterxml/jackson/annotation/JsonIdentityInfo
+instanceKlass com/fasterxml/jackson/annotation/JsonAutoDetect
+instanceKlass com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector
+instanceKlass com/fasterxml/jackson/core/filter/TokenFilter
+instanceKlass com/fasterxml/jackson/databind/util/internal/PrivateMaxEntriesMap$AddTask
+instanceKlass com/fasterxml/jackson/databind/util/internal/PrivateMaxEntriesMap$WeightedValue
+instanceKlass com/fasterxml/jackson/databind/type/ClassStack
+instanceKlass com/auth0/jwt/impl/JWTParser
+instanceKlass com/auth0/jwt/interfaces/JWTPartsParser
+instanceKlass  @bci com/auth0/jwt/JWTVerifier$BaseVerification addMandatoryClaimChecks ()V 85 <appendix> member <vmtarget> ; # com/auth0/jwt/JWTVerifier$BaseVerification$$Lambda$1618+0x0000000801a30b28
+instanceKlass  @bci com/auth0/jwt/JWTVerifier$BaseVerification addMandatoryClaimChecks ()V 54 <appendix> member <vmtarget> ; # com/auth0/jwt/JWTVerifier$BaseVerification$$Lambda$1617+0x0000000801a308e8
+instanceKlass  @bci com/auth0/jwt/JWTVerifier$BaseVerification addMandatoryClaimChecks ()V 31 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x0000000801a34800
+instanceKlass  @bci com/auth0/jwt/JWTVerifier$BaseVerification addMandatoryClaimChecks ()V 31 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801a34400
+instanceKlass  @bci com/auth0/jwt/JWTVerifier$BaseVerification addMandatoryClaimChecks ()V 31 <appendix> member <vmtarget> ; # com/auth0/jwt/JWTVerifier$BaseVerification$$Lambda$1616+0x0000000801a306a8
+instanceKlass  @cpi com/auth0/jwt/JWTVerifier$BaseVerification 375 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000801a34000
+instanceKlass com/auth0/jwt/JWTVerifier$BaseVerification$1
+instanceKlass  @bci com/auth0/jwt/JWTVerifier$BaseVerification addCheck (Ljava/lang/String;Ljava/util/function/BiPredicate;)V 8 <appendix> member <vmtarget> ; # com/auth0/jwt/JWTVerifier$BaseVerification$$Lambda$1615+0x0000000801a30240
+instanceKlass  @bci com/auth0/jwt/JWTVerifier$BaseVerification withIssuer ([Ljava/lang/String;)Lcom/auth0/jwt/interfaces/Verification; 22 <appendix> member <vmtarget> ; # com/auth0/jwt/JWTVerifier$BaseVerification$$Lambda$1614+0x0000000801a30000
+instanceKlass com/auth0/jwt/interfaces/Claim
+instanceKlass com/auth0/jwt/impl/ExpectedCheckHolder
+instanceKlass com/auth0/jwt/JWTVerifier$BaseVerification
+instanceKlass com/auth0/jwt/interfaces/Verification
+instanceKlass com/auth0/jwt/JWTVerifier
+instanceKlass com/auth0/jwt/interfaces/JWTVerifier
+instanceKlass com/auth0/jwt/interfaces/DecodedJWT
+instanceKlass com/auth0/jwt/interfaces/Header
+instanceKlass com/auth0/jwt/interfaces/Payload
+instanceKlass com/auth0/jwt/JWT
+instanceKlass com/auth0/jwt/algorithms/CryptoHelper
+instanceKlass com/auth0/jwt/algorithms/Algorithm
+instanceKlass org/apache/coyote/Constants
+instanceKlass  @bci org/springframework/http/server/ServletServerHttpResponse writeHeaders ()V 12 <appendix> member <vmtarget> ; # org/springframework/http/server/ServletServerHttpResponse$$Lambda$1613+0x0000000801a2c850
+instanceKlass org/springframework/util/LinkedCaseInsensitiveMap$EntryIterator
+instanceKlass org/springframework/security/web/firewall/StrictHttpFirewall$StrictFirewalledRequest$1
+instanceKlass org/springframework/security/web/firewall/StrictHttpFirewall$StrictFirewalledRequest$2
+instanceKlass org/apache/tomcat/util/http/NamesEnumerator
+instanceKlass org/springframework/http/server/ServletServerHttpResponse
+instanceKlass org/springframework/http/server/ServerHttpAsyncRequestControl
+instanceKlass org/springframework/http/server/ServletServerHttpRequest
+instanceKlass org/springframework/web/util/HierarchicalUriComponents$1
+instanceKlass org/springframework/web/util/UriComponents$UriTemplateVariables
+instanceKlass org/springframework/web/util/HierarchicalUriComponents$PathComponent
+instanceKlass org/springframework/web/util/UriComponentsBuilder$CompositePathComponentBuilder
+instanceKlass org/springframework/web/util/UriComponentsBuilder$PathComponentBuilder
+instanceKlass org/springframework/web/util/UriComponents
+instanceKlass  @bci org/springframework/security/web/firewall/FirewalledResponse validateCrlf (Ljava/lang/String;Ljava/lang/String;)V 22 <appendix> member <vmtarget> ; # org/springframework/security/web/firewall/FirewalledResponse$$Lambda$1612+0x0000000801a27c68
+instanceKlass  @bci org/springframework/security/core/context/ThreadLocalSecurityContextHolderStrategy setDeferredContext (Ljava/util/function/Supplier;)V 7 <appendix> member <vmtarget> ; # org/springframework/security/core/context/ThreadLocalSecurityContextHolderStrategy$$Lambda$1611+0x0000000801a26e88
+instanceKlass org/springframework/security/web/context/SupplierDeferredSecurityContext
+instanceKlass  @bci org/springframework/security/web/context/RequestAttributeSecurityContextRepository loadDeferredContext (Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/security/core/context/DeferredSecurityContext; 2 <appendix> member <vmtarget> ; # org/springframework/security/web/context/RequestAttributeSecurityContextRepository$$Lambda$1610+0x0000000801a26a50
+instanceKlass org/springframework/security/web/context/request/async/SecurityContextCallableProcessingInterceptor
+instanceKlass org/springframework/web/context/request/async/TimeoutDeferredResultProcessingInterceptor
+instanceKlass org/springframework/web/context/request/async/TimeoutCallableProcessingInterceptor
+instanceKlass org/springframework/web/context/request/async/AsyncWebRequest
+instanceKlass org/springframework/web/context/request/async/WebAsyncUtils
+instanceKlass org/springframework/security/web/FilterChainProxy$VirtualFilterChain
+instanceKlass  @bci org/springframework/security/web/FilterChainProxy doFilterInternal (Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;Ljakarta/servlet/FilterChain;)V 139 <appendix> member <vmtarget> ; # org/springframework/security/web/FilterChainProxy$$Lambda$1609+0x0000000801a25240
+instanceKlass org/springframework/web/servlet/handler/HandlerMappingIntrospector$LookupPathMatchableHandlerMapping
+instanceKlass org/springframework/web/servlet/handler/AbstractHandlerMapping$CorsInterceptor
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/RequestMappingInfoHandlerMapping extractMatchDetails (Lorg/springframework/web/servlet/mvc/condition/PathPatternsRequestCondition;Ljava/lang/String;Ljakarta/servlet/http/HttpServletRequest;)V 102 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/RequestMappingInfoHandlerMapping$$Lambda$1608+0x0000000801a24668
+instanceKlass  @bci org/springframework/http/server/observation/DefaultServerRequestObservationConvention <clinit> ()V 116 <appendix> argL0 ; # org/springframework/http/server/observation/DefaultServerRequestObservationConvention$$Lambda$1607+0x0000000801a24440
+instanceKlass io/micrometer/common/ImmutableKeyValue
+instanceKlass io/micrometer/common/KeyValue
+instanceKlass io/micrometer/observation/docs/ObservationDocumentation
+instanceKlass  @bci io/micrometer/observation/ObservationConvention <clinit> ()V 0 <appendix> argL0 ; # io/micrometer/observation/ObservationConvention$$Lambda$1606+0x0000000801a21f18
+instanceKlass io/micrometer/common/docs/KeyName
+instanceKlass org/springframework/http/server/observation/DefaultServerRequestObservationConvention
+instanceKlass org/springframework/http/server/observation/ServerRequestObservationConvention
+instanceKlass io/micrometer/observation/ObservationConvention
+instanceKlass io/micrometer/observation/KeyValuesConvention
+instanceKlass  @bci org/springframework/web/servlet/mvc/method/RequestMappingInfoHandlerMapping extractMatchDetails (Lorg/springframework/web/servlet/mvc/condition/PathPatternsRequestCondition;Ljava/lang/String;Ljakarta/servlet/http/HttpServletRequest;)V 53 <appendix> member <vmtarget> ; # org/springframework/web/servlet/mvc/method/RequestMappingInfoHandlerMapping$$Lambda$1605+0x0000000801a20f58
+instanceKlass org/springframework/web/util/pattern/PathPattern$PathMatchInfo
+instanceKlass org/springframework/web/servlet/handler/AbstractHandlerMethodMapping$Match
+instanceKlass  @bci org/springframework/web/util/ServletRequestPathUtils getParsedRequestPath (Ljakarta/servlet/ServletRequest;)Lorg/springframework/http/server/RequestPath; 14 <appendix> argL0 ; # org/springframework/web/util/ServletRequestPathUtils$$Lambda$1604+0x0000000801a20940
+instanceKlass org/springframework/web/cors/CorsUtils
+instanceKlass org/springframework/http/server/DefaultRequestPath
+instanceKlass org/apache/catalina/core/ApplicationMapping$MappingImpl
+instanceKlass org/apache/catalina/core/ApplicationMapping$1
+instanceKlass org/springframework/web/util/ServletRequestPathUtils$ServletRequestPath
+instanceKlass org/springframework/web/util/ServletRequestPathUtils
+instanceKlass  @bci org/springframework/web/servlet/handler/HandlerMappingIntrospector setCache (Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/web/servlet/handler/HandlerMappingIntrospector$CachedResult; 40 <appendix> member <vmtarget> ; # org/springframework/web/servlet/handler/HandlerMappingIntrospector$$Lambda$1603+0x0000000801a1f9d8
+instanceKlass org/springframework/web/filter/CompositeFilter$VirtualFilterChain
+instanceKlass org/apache/catalina/util/TLSUtil
+instanceKlass org/apache/catalina/connector/ResponseFacade
+instanceKlass org/apache/catalina/core/ApplicationFilterFactory$1
+instanceKlass org/apache/catalina/core/ApplicationFilterChain
+instanceKlass org/apache/catalina/core/ApplicationFilterFactory
+instanceKlass org/apache/coyote/AbstractProcessor$1
+instanceKlass jakarta/security/auth/message/config/AuthConfigProvider
+instanceKlass jakarta/security/auth/message/config/ServerAuthConfig
+instanceKlass jakarta/security/auth/message/config/AuthConfig
+instanceKlass jakarta/security/auth/message/config/ServerAuthContext
+instanceKlass jakarta/security/auth/message/ServerAuth
+instanceKlass  @bci jakarta/security/auth/message/config/AuthConfigFactory getFactory ()Ljakarta/security/auth/message/config/AuthConfigFactory; 32 <appendix> member <vmtarget> ; # jakarta/security/auth/message/config/AuthConfigFactory$$Lambda$1602+0x0000000801a1ce50
+instanceKlass  @bci jakarta/security/auth/message/config/AuthConfigFactory getFactoryClassName ()Ljava/lang/String; 0 <appendix> argL0 ; # jakarta/security/auth/message/config/AuthConfigFactory$$Lambda$1601+0x0000000801a1cc48
+instanceKlass jakarta/security/auth/message/config/AuthConfigFactory
+instanceKlass org/apache/catalina/connector/RequestFacade
+instanceKlass org/apache/catalina/util/SessionConfig
+instanceKlass org/apache/tomcat/util/buf/UEncoder
+instanceKlass org/apache/tomcat/util/collections/ConcurrentCache
+instanceKlass org/apache/tomcat/util/http/parser/MediaTypeCache
+instanceKlass org/apache/catalina/connector/Response
+instanceKlass org/apache/catalina/core/ApplicationMapping
+instanceKlass org/apache/catalina/mapper/MappingData
+instanceKlass org/apache/catalina/util/ParameterMap
+instanceKlass org/apache/tomcat/util/buf/ByteChunk$ByteInputChannel
+instanceKlass org/apache/catalina/connector/Request$8
+instanceKlass org/apache/catalina/connector/Request$7
+instanceKlass org/apache/catalina/connector/Request$6
+instanceKlass org/apache/catalina/connector/Request$5
+instanceKlass org/apache/catalina/connector/Request$4
+instanceKlass org/apache/catalina/connector/Request$3
+instanceKlass org/apache/catalina/connector/Request$2
+instanceKlass org/apache/catalina/connector/Request$1

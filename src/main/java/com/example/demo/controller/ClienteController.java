@@ -8,16 +8,17 @@ import com.example.demo.repository.UsuarioRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/cliente")
 public class ClienteController {
     @Autowired
-    ClienteRepository repository;
+    private ClienteRepository repository;
 
     @Autowired
-    UsuarioRepository usuarioRepository;
+    private UsuarioRepository usuarioRepository;
 
     @GetMapping("/listar")
     public ResponseEntity veSeFunciona() {
@@ -25,23 +26,6 @@ public class ClienteController {
 
         return ResponseEntity.ok(allClientes);
     }
-
-    @PostMapping()
-    public ResponseEntity salvar(@RequestBody @Valid ClienteDTO data) {
-
-        /*if(repository.findByEmail(data.email()) ){
-            passwordEncoder.encode(data.password());
-            return ResponseEntity.ok(repository.save(new Cliente(data)));
-        }*/
-
-        if (repository.findByEmailOrCpf(data.email(), data.cpf()) == null) {
-//            String encriptedPassword = new BCryptPasswordEncoder().encode(data.password());
-            return ResponseEntity.ok(repository.save(new Cliente(data)));
-        }
-
-        return ResponseEntity.ok("nao encontrado");
-    }
-
     @GetMapping("{id}")
     public ResponseEntity encontrarUsuario(@PathVariable Long id) {
         Usuario cliente = usuarioRepository.findById(id).orElseThrow(() -> new RuntimeException("cliente não encontrado"));
@@ -74,6 +58,10 @@ public class ClienteController {
 
     @PostMapping("/cadastrar")
     public ResponseEntity cadastrar (@RequestBody @Valid ClienteDTO data){
-        return ResponseEntity.ok(repository.save(new Cliente(data)));
+
+        if(repository.findByEmailOrCpf(data.email(), data.cpf()).isEmpty())
+            return ResponseEntity.ok(repository.save(new Cliente(data)));
+
+        return ResponseEntity.ok(new RuntimeException("erro, email ou cpf já estão sendo utilizados"));
     }
 }

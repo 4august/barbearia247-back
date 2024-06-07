@@ -8,9 +8,10 @@ import java.util.List;
 import java.util.Optional;
 
 public interface BarbeariaRepository extends JpaRepository<Barbearia, Long> {
-    Optional<Barbearia> findByCnpj(String cnpj);
-    /*@Query("SELECT b FROM barbearia where c.cnpj = 92.330.586/0001-99")
-    Optional<Barbearia> encontraBarbearia(Long id);*/
+    Optional<Barbearia> findByCnpjOrEmail(String cnpj, String email);
+
+    /*@Query("SELECT b FROM barbearia WHERE usuarioid = :id ")
+    Barbearia pesquisarPorID(Long id);*/
 
     @Query("SELECT b FROM barbearia b WHERE b.nome LIKE CONCAT('%', :termo, '%')")
     List<Barbearia> pesquisar(String termo);

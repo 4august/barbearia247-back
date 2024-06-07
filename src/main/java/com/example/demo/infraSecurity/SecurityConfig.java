@@ -29,6 +29,7 @@ public class SecurityConfig {
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(HttpMethod.POST, "barbearia/cadastrar").permitAll()
+                        .requestMatchers(HttpMethod.GET, "barbearia/*").permitAll()
                         .requestMatchers(HttpMethod.POST, "cliente/cadastrar").permitAll()
                         .requestMatchers("barbeiro/**").hasRole("BARBEARIA")
                         .requestMatchers("servico/**").hasRole("BARBEARIA")

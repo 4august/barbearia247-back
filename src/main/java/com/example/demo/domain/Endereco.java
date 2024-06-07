@@ -1,6 +1,7 @@
 package com.example.demo.domain;
 
 import com.example.demo.DTO.EnderecoDTO;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
@@ -19,13 +20,14 @@ public class Endereco {
 
     private String cep;
     private String logradouro;
-    private Long numero;
+    private String numero;
     private String bairro;
+    private String cidade;
     private String complemento;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "barbeariaID")
-    @JsonIgnoreProperties({"barbeiros", "servicos","contatos"})
+    @JsonIgnore
     private Usuario barbearia;
 
     public Endereco(EnderecoDTO data, Usuario barbearia){
@@ -34,6 +36,7 @@ public class Endereco {
         this.numero = data.numero();
         this.bairro = data.bairro();
         this.complemento = data.complemento();
+        this.cidade = data.cidade();
         this.barbearia = barbearia;
     }
 }

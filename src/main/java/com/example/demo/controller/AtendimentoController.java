@@ -67,9 +67,10 @@ public class AtendimentoController {
         repository.deleteById(id);
     }
 
-    /*@GetMapping("/encontrar")
-    public ResponseEntity getAtendimento(@RequestBody @Valid AtendimentoDTO data){
+    /*@GetMapping("/encontrar-atendimento/{id}")
+    public ResponseEntity getAtendimento(@PathVariable @Valid AtendimentoDTO data){
         //return ResponseEntity.ok(data);
         return ResponseEntity.ok(repository.findByBarbeiroAndDataHora(data.funcionarioID(), data.dataHora()));
     }*/
+
 }

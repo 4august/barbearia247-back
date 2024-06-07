@@ -64,4 +64,5 @@ public class BarbeiroController {
 
         return ResponseEntity.ok("Usuário deletado");
     }
+
 }

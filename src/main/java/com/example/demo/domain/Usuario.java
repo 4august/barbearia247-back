@@ -24,14 +24,16 @@ public class Usuario implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "usuarioID")
     private Long id;
-    private String email;
     @JsonIgnore
     private String senha;
+
+    private String username;
+
     private UsuarioRole role;
 
-    public Usuario(String email, String senha, UsuarioRole role) {
-        this.email = email;
+    public Usuario( String senha, String usernameEmail, UsuarioRole role) {
         this.senha = new BCryptPasswordEncoder().encode(senha);
+        this.username = usernameEmail;
         this.role = role;
     }
 
@@ -57,7 +59,7 @@ public class Usuario implements UserDetails {
     @Override
     @JsonIgnore
     public String getUsername() {
-        return email;
+        return username;
     }
 
 

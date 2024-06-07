@@ -26,7 +26,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         var token = this.recoverToken(request);
         if(token != null){
             var email = tokenService.validateToken(token);
-            UserDetails user = repository.findByEmail(email);
+            UserDetails user = repository.findByUsername(email);
 
             var authentication = new UsernamePasswordAuthenticationToken(user, null, user.getAuthorities());
             SecurityContextHolder.getContext().setAuthentication(authentication);

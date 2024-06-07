@@ -19,13 +19,15 @@ public class Cliente extends Usuario{
 //    @Column(name = "clienteID")
     private Long id;
     private String nome;
+    private String email;
     @Column(unique = true)
     private String cpf;
     private String telefone;
 
     public Cliente(ClienteDTO data){
-        super(data.email(), data.senha(), data.role());
+        super(data.senha(), data.email(), data.role());
         this.nome = data.nome();
+        this.email = data.email();
         this.cpf = data.cpf();
         this.telefone = data.telefone();
     }

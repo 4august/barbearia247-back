@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Collection;
 import java.util.List;
 
 @Entity(name = "barbearia")
@@ -24,6 +23,7 @@ public class Barbearia extends Usuario {
     @Column(unique = true)
     private String cnpj;
     private String nome;
+    private String email;
     private String logo;
     private String banner;
     private Boolean isActive;
@@ -45,9 +45,10 @@ public class Barbearia extends Usuario {
     @JsonIgnoreProperties("barbearia")
     private List<Servico> servicos;
     public Barbearia(BarbeariaReqDTO data) {
-        super(data.email(), data.senha(), data.role());
+        super(data.senha(), data.email(), data.role());
         this.cnpj = data.cnpj();
         this.nome = data.nome();
+        this.email = data.email();
         this.logo = data.logo();
         this.banner = data.banner();
         this.isActive = data.isActive();
